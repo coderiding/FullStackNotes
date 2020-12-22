@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE11BF191C895FC500F62B09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE11BF181C895FC500F62B09 /* main.m */; };
+		FE11BF1C1C895FC500F62B09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE11BF1B1C895FC500F62B09 /* AppDelegate.m */; };
+		FE11BF1F1C895FC500F62B09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE11BF1E1C895FC500F62B09 /* ViewController.m */; };
+		FE11BF221C895FC500F62B09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE11BF201C895FC500F62B09 /* Main.storyboard */; };
+		FE11BF241C895FC500F62B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE11BF231C895FC500F62B09 /* Assets.xcassets */; };
+		FE11BF271C895FC500F62B09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE11BF251C895FC500F62B09 /* LaunchScreen.storyboard */; };
+		FE11BF381C895FCE00F62B09 /* LewBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FE11BF301C895FCE00F62B09 /* LewBar.m */; };
+		FE11BF391C895FCE00F62B09 /* LewBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = FE11BF321C895FCE00F62B09 /* LewBarChart.m */; };
+		FE11BF3A1C895FCE00F62B09 /* LewBarChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = FE11BF341C895FCE00F62B09 /* LewBarChartData.m */; };
+		FE11BF3B1C895FCE00F62B09 /* LewLegendView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE11BF371C895FCE00F62B09 /* LewLegendView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE11BF141C895FC500F62B09 /* LewBarChartDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LewBarChartDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE11BF181C895FC500F62B09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE11BF1A1C895FC500F62B09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE11BF1B1C895FC500F62B09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE11BF1D1C895FC500F62B09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE11BF1E1C895FC500F62B09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE11BF211C895FC500F62B09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE11BF231C895FC500F62B09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE11BF261C895FC500F62B09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE11BF281C895FC500F62B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE11BF2F1C895FCE00F62B09 /* LewBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LewBar.h; sourceTree = "<group>"; };
+		FE11BF301C895FCE00F62B09 /* LewBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LewBar.m; sourceTree = "<group>"; };
+		FE11BF311C895FCE00F62B09 /* LewBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LewBarChart.h; sourceTree = "<group>"; };
+		FE11BF321C895FCE00F62B09 /* LewBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LewBarChart.m; sourceTree = "<group>"; };
+		FE11BF331C895FCE00F62B09 /* LewBarChartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LewBarChartData.h; sourceTree = "<group>"; };
+		FE11BF341C895FCE00F62B09 /* LewBarChartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LewBarChartData.m; sourceTree = "<group>"; };
+		FE11BF351C895FCE00F62B09 /* LewCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LewCommon.h; sourceTree = "<group>"; };
+		FE11BF361C895FCE00F62B09 /* LewLegendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LewLegendView.h; sourceTree = "<group>"; };
+		FE11BF371C895FCE00F62B09 /* LewLegendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LewLegendView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE11BF111C895FC500F62B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE11BF0B1C895FC500F62B09 = {
+			isa = PBXGroup;
+			children = (
+				FE11BF2E1C895FCE00F62B09 /* LewBarChart */,
+				FE11BF161C895FC500F62B09 /* LewBarChartDemo */,
+				FE11BF151C895FC500F62B09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE11BF151C895FC500F62B09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE11BF141C895FC500F62B09 /* LewBarChartDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE11BF161C895FC500F62B09 /* LewBarChartDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FE11BF1A1C895FC500F62B09 /* AppDelegate.h */,
+				FE11BF1B1C895FC500F62B09 /* AppDelegate.m */,
+				FE11BF1D1C895FC500F62B09 /* ViewController.h */,
+				FE11BF1E1C895FC500F62B09 /* ViewController.m */,
+				FE11BF201C895FC500F62B09 /* Main.storyboard */,
+				FE11BF231C895FC500F62B09 /* Assets.xcassets */,
+				FE11BF251C895FC500F62B09 /* LaunchScreen.storyboard */,
+				FE11BF281C895FC500F62B09 /* Info.plist */,
+				FE11BF171C895FC500F62B09 /* Supporting Files */,
+			);
+			path = LewBarChartDemo;
+			sourceTree = "<group>";
+		};
+		FE11BF171C895FC500F62B09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE11BF181C895FC500F62B09 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE11BF2E1C895FCE00F62B09 /* LewBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				FE11BF2F1C895FCE00F62B09 /* LewBar.h */,
+				FE11BF301C895FCE00F62B09 /* LewBar.m */,
+				FE11BF311C895FCE00F62B09 /* LewBarChart.h */,
+				FE11BF321C895FCE00F62B09 /* LewBarChart.m */,
+				FE11BF331C895FCE00F62B09 /* LewBarChartData.h */,
+				FE11BF341C895FCE00F62B09 /* LewBarChartData.m */,
+				FE11BF351C895FCE00F62B09 /* LewCommon.h */,
+				FE11BF361C895FCE00F62B09 /* LewLegendView.h */,
+				FE11BF371C895FCE00F62B09 /* LewLegendView.m */,
+			);
+			name = LewBarChart;
+			path = ../LewBarChart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE11BF131C895FC500F62B09 /* LewBarChartDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE11BF2B1C895FC500F62B09 /* Build configuration list for PBXNativeTarget "LewBarChartDemo" */;
+			buildPhases = (
+				FE11BF101C895FC500F62B09 /* Sources */,
+				FE11BF111C895FC500F62B09 /* Frameworks */,
+				FE11BF121C895FC500F62B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LewBarChartDemo;
+			productName = LewBarChartDemo;
+			productReference = FE11BF141C895FC500F62B09 /* LewBarChartDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE11BF0C1C895FC500F62B09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = pljhonglu;
+				TargetAttributes = {
+					FE11BF131C895FC500F62B09 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FE11BF0F1C895FC500F62B09 /* Build configuration list for PBXProject "LewBarChartDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE11BF0B1C895FC500F62B09;
+			productRefGroup = FE11BF151C895FC500F62B09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE11BF131C895FC500F62B09 /* LewBarChartDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE11BF121C895FC500F62B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE11BF271C895FC500F62B09 /* LaunchScreen.storyboard in Resources */,
+				FE11BF241C895FC500F62B09 /* Assets.xcassets in Resources */,
+				FE11BF221C895FC500F62B09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE11BF101C895FC500F62B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE11BF381C895FCE00F62B09 /* LewBar.m in Sources */,
+				FE11BF3B1C895FCE00F62B09 /* LewLegendView.m in Sources */,
+				FE11BF1F1C895FC500F62B09 /* ViewController.m in Sources */,
+				FE11BF1C1C895FC500F62B09 /* AppDelegate.m in Sources */,
+				FE11BF391C895FCE00F62B09 /* LewBarChart.m in Sources */,
+				FE11BF191C895FC500F62B09 /* main.m in Sources */,
+				FE11BF3A1C895FCE00F62B09 /* LewBarChartData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE11BF201C895FC500F62B09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE11BF211C895FC500F62B09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE11BF251C895FC500F62B09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE11BF261C895FC500F62B09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE11BF291C895FC500F62B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE11BF2A1C895FC500F62B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE11BF2C1C895FC500F62B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LewBarChartDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pljhonglu.LewBarChartDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE11BF2D1C895FC500F62B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LewBarChartDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pljhonglu.LewBarChartDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE11BF0F1C895FC500F62B09 /* Build configuration list for PBXProject "LewBarChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE11BF291C895FC500F62B09 /* Debug */,
+				FE11BF2A1C895FC500F62B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE11BF2B1C895FC500F62B09 /* Build configuration list for PBXNativeTarget "LewBarChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE11BF2C1C895FC500F62B09 /* Debug */,
+				FE11BF2D1C895FC500F62B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE11BF0C1C895FC500F62B09 /* Project object */;
+}
