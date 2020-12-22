@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>draw_image</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIGraphicsBeginImageContextWithOptions(CGSizeMake(&lt;#width#&gt;￼￼, &lt;#height#&gt;￼￼), NO, 0.0f);
+
+    // insert code from PaintCode here
+    ￼￼&lt;#code#&gt;
+
+    image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    //use image</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>801AC0C2-656A-4E2B-86AD-474643176268</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Returns image from drawing code</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Image Draw</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

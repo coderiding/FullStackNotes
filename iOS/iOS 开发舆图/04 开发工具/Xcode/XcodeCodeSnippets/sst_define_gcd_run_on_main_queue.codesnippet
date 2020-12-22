@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>define_gcd_run_on_main_queue</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#define gcd_run_on_main_queue(block) \
+    if ([NSThread isMainThread]) \
+        block(); \
+    else \
+        dispatch_sync(dispatch_get_main_queue(), block); \
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E0ED4CE8-5755-4F3F-B698-F1F0426B1A35</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Macro to run block safely on main queue (put in .pch)</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>GCD: Run on Main Queue</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

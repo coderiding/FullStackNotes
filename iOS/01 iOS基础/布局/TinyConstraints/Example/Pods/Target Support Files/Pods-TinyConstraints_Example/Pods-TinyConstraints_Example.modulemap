@@ -1,6 +1,0 @@
-module Pods_TinyConstraints_Example {
-  umbrella header "Pods-TinyConstraints_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}

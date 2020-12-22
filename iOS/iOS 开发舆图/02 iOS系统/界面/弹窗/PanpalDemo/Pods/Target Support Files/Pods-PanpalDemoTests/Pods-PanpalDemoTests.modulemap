@@ -1,0 +1,6 @@
+framework module Pods_PanpalDemoTests {
+  umbrella header "Pods-PanpalDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

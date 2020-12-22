@@ -1,0 +1,20 @@
+PODS:
+  - HWPanModal (0.8.0)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - HWPanModal
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - HWPanModal
+    - SnapKit
+
+SPEC CHECKSUMS:
+  HWPanModal: d3c902548346b19f6bb0e667567a06f8b82049a9
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 1ff52bfa0972d457bd454ee762ce1941db129e5c
+
+COCOAPODS: 1.9.3
