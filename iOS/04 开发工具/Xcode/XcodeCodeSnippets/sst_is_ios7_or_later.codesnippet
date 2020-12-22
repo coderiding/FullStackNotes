@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>is_ios7_or_later</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#define RUNNING_IOS_7_OR_LATER  (floor(NSFoundationVersionNumber) &gt; NSFoundationVersionNumber_iOS_6_1)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>39A6417C-1EFF-4A80-8ADC-5024EB51027B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Determines if the iOS version is 7 or later</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Is Running iOS 7 or Later</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

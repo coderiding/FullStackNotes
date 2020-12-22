@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>log_fonts</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)logFonts {
+    for (id familyName in [UIFont familyNames]) {
+        DebugLog(@"Family Name: %@", familyName);
+        for (id fontName in [UIFont fontNamesForFamilyName:familyName]) {
+            DebugLog(@"Font Name: %@", fontName);
+        }
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>436C122E-A1F9-4AB6-966A-34B63D05664B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Log Fonts</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Log Fonts</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
