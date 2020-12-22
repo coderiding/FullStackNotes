@@ -1,0 +1,16 @@
+category:
+  en: Feedback
+  zh-CN: 弹窗提示
+icon: '&#xe610;'
+props:
+  type:
+    type: String
+    default: 'ios'
+    en: icon type
+    zh-CN: 图标类型
+changes:
+  v2.3.6:
+    en:
+      - '[feature] Support prop:size #1447'
+    zh-CN:
+      - '[feature] 支持 prop:size #1447'

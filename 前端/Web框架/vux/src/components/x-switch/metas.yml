@@ -1,0 +1,88 @@
+category:
+  en: Form
+  'zh-CN': 表单
+icon: '&#xe61c;'
+extra:
+  en: |
+
+    ```html
+      <group>
+        <x-switch title="title" v-model="value"></x-switch>
+      </group>
+    ```
+
+    ::: tip
+    `x-switch` should be used in `Group`.
+    :::
+
+  zh-CN: |
+
+    ```html
+      <group>
+        <x-switch title="title" v-model="value"></x-switch>
+      </group>
+    ```
+
+    ::: tip
+    `x-switch`只能在`Group`中使用
+    :::
+tags:
+  en:
+    - switch
+    - form
+  zh-CN:
+    - 表单
+    - 开关
+props:
+  title:
+    type: String
+    default: ''
+    en: label text
+    zh-CN: label文字
+  disabled:
+    type: Boolean
+    default: false
+    en: if disabled
+    zh-CN: 是否不可点击
+  value:
+    type: Boolean
+    default: false
+    en: "component's value, use `v-model` for binding"
+    zh-CN: '表单值, 使用`v-model`绑定'
+  inline-desc:
+    type: String
+    default: ''
+    en: desctiption text below the label
+    zh-CN: 标签下文字
+  prevent-default:
+    type: Boolean
+    default: false
+    version: v2.5.0
+    en: prevent from setting value on being clicked
+    zh-CN: 阻止点击时自动设定值
+  value-map:
+    type: Array
+    version: v2.7.0
+    default: '[false, true]'
+    en: customize not-boolean values
+    zh-CN: 用于自定义 false 和 true 映射的实际值，用于方便处理比如接口返回了 0 1 这类非 boolean 值的情况
+events:
+  on-change:
+    params: '`(value)`'
+    en: triggers when value change, params is (currentValue)
+    zh-CN: 值变化时触发，参数为 (currentValue)
+  on-click:
+    params: '`(newVal, oldVal)`'
+    en: triggers when being clicked
+    zh-CN: 点击组件时触发
+changes:
+  v2.7.0:
+    en:
+      - '[feature] support prop:value-map #2104'
+    zh-CN:
+      - '[feature] 支持 prop:value-map 自定义值映射，比如 [0, 1] ["0", "1"] 等接口可能返回的非 boolean 值 #2104'
+  v2.5.0:
+    en:
+      - '[feature] we can use prop:prevent-default to prevent from setting value on being clicked #1606'
+    zh-CN:
+      - '[feature] 支持使用 prop:prevent-default 来阻止自动设定值 #1606'

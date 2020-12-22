@@ -1,0 +1,84 @@
+icon: '&#xe62a;'
+category:
+  en: Navigation
+  zh-CN: 导航
+extra:
+  en: 'this component is forked from: https://github.com/bajian/vue-drawer'
+  zh-CN: |
+
+    当前组件 forked 自 https://github.com/bajian/vue-drawer
+
+    drawer 设计是作为公用侧边栏使用，所以不支持直接在单页面里使用，而是配合 `router-view` 来使用。
+
+    
+    ``` html
+    <template>
+      <div>
+        <drawer
+          width="200px;"
+          :show.sync="drawerVisibility">
+
+        <div slot="drawer">
+          <!-- 菜单内容 -->
+        </div>
+
+        <!-- rourer-view 作为默认插槽内容 -->
+        <div>
+          <router-view></router-view>
+        </div>
+
+        </drawer>
+      </div>
+    </template>
+
+    ```
+
+    ::: tip
+      源码请参考 [App.vue](https://github.com/airyland/vux/blob/v2/src/App.vue)
+    :::
+
+props:
+  show:
+    version: v2.4.0
+    type: Boolean
+    default: false
+    en: visibility of the component, use :show.sync to control the visibility(vue@^2.3.3)
+    zh-CN: 是否展开，使用 :show.sync 绑定(vue@^2.3.3)
+  drawer-style:
+    version: v2.4.0
+    en: menu container styles
+    zh-CN: 菜单样式
+  show-mode:
+    version: v2.4.0
+    default: overlay
+    en: animation type, can be push or overlay
+    zh-CN: 展示方式，push(推开内容区域)或者 overlay(在内容上显示)
+  placement:
+    version: v2.4.0
+    default: left
+    en: placement, left or right
+    zh-CN: 显示位置，可以为 left 或者 right
+slots:
+  default:
+    version: v2.4.0
+    en: page content container
+    zh-CN: 主体内容插槽
+  drawer:
+    version: v2.4.0
+    en: drawer menu container
+    zh-CN: 侧边栏内容插槽
+event:
+  on-show:
+    version: v2.4.0
+    en: emits when drawer is shown
+    zh-CN: 侧边栏显示时触发
+  on-hidde:
+    version: v2.4.0
+    en: emits when drawer is hidden
+    zh-CN: 侧边栏关闭时触发
+changes:
+  v2.4.0:
+    en:
+      - '[feature] new component'
+    zh-CN:
+      - '[feature] 新组件：侧边栏(beta)'

@@ -1,0 +1,161 @@
+category:
+  en: Navigation
+  zh-CN: 导航
+icon: '&#xe615;'
+items:
+  - tab
+  - tab-item
+tags:
+  en:
+    - tab
+  zh-CN:
+    - 选项
+    - 选项卡
+import_code: "import { Tab, TabItem } from 'vux'"
+extra: |
+
+  如果需要监听`tab-item`的点击事件并取得索引，请使用`on-item-click`事件:
+
+  ``` html
+  <tab>
+    <tab-item @on-item-click="handler"></tab-item>
+  </tab>
+  ```
+
+tab:
+  props:
+    line-width:
+      type: Number
+      default: 3
+      en: line width
+      zh-CN: 线条宽度
+    active-color:
+      en: selected text color
+      zh-CN: 选中时文字颜色
+    default-color:
+      en: default text color
+      zh-CN: 默认文字颜色
+    disabled-color:
+      en: disabled text color
+      zh-CN: 不可点击时文字颜色
+    bar-active-color:
+      en: active color for bar
+      zh-CN: '设置底部`bar`颜色，该颜色也可以通过`less`变量`@tab-bar-active-color`设置。'
+    animate:
+      type: Boolean
+      default: true
+      en: whether use transition
+      zh-CN: 切换时是否需要动画
+    custom-bar-width:
+      type: String, Function
+      version: v2.1.1-rc.7
+      en: 'set active bar width, like `50px`. or you can use function, param is `(currentInex)`'
+      zh-CN: '设置底部`bar`宽度，默认宽度是整体tab宽度平分，比如`50px`。使用函数时参数为当前索引`index`，你可以定义不同`tab-item`对应的`bar`宽度。'
+    badge-label:
+      version: v2.3.5
+      type: String
+      en: badge label
+      zh-CN: 徽标文字
+    badge-background:
+      version: v2.3.5
+      type: String
+      default: #f74c31
+      en: badge background color
+      zh-CN: 徽标背景颜色
+    badge-color:
+      version: v2.3.5
+      type: String
+      default: #fff
+      en: badge font color
+      zh-CN: 徽标文字颜色
+    prevent-default:
+      version: v2.7.2
+      default: false
+      en: whether prevent auto-switching tab-item when tab-item is clicked
+      zh-CN: 是否禁止自动切换 tab-item
+    scroll-threshold:
+      version: v2.8.1
+      type: Number
+      default: 4
+      en: scroll tabs threshold
+      zh-CN: 滚动阀值，超过可滚动
+    bar-position:
+      version: v2.9.0
+      type: String
+      default: bottom
+      en: bar position, one of [bottom, top]. only works when animate is true.
+      zh-CN: 边框位置，可以为 bottom 或者 top。仅支持 animate 为 true 的情况。
+  event:
+    on-index-change:
+      params: '`(index)`'
+      en: fires when switching tab-item
+      zh-CN: tab-item 切换时触发
+    on-before-index-change:
+      version: v2.7.2
+      params: '`(index)`'
+      en: fires when item is clicked and prop:preventDefault is true
+      zh-CN: 点击 tab-item 并且 属性 preventDefault 为 true 时触发
+tab-item:
+  props:
+    disabled:
+      type: Boolean
+      default: false
+      en: wheher disabled clicking
+      zh-CN: 是否不可选
+    active-class:
+      en: active classname for current tab-item
+      zh-CN: 当前项选中时的class
+  events:
+    on-item-click:
+      params: '`(index)`'
+      version: v2.2.1-rc.4
+      en: emits when current tabItem is clicked
+      zh-CN: 当前 tabItem 被点击时触发
+changes:
+  v2.9.4:
+    en:
+      - '[fix] tab  #2850'
+    zh-CN:
+      - '[change] 修复 tab的父级width没有100%或者有padding 滚动造成文字跟横杠错位问题 #2850'
+  v2.9.1:
+    en:
+      - '[fix] fix box-sizing issue #2621. thanks to @suncodeer'
+    zh-CN:
+      - '[fix] 修复全局 box-sizing 为 border-box 时导致的高度问题 #2621。感谢 @suncodeer '
+  v2.9.0:
+    en:
+      - '[feature] support prop:bar-position'
+    zh-CN:
+      - '[feature] 支持使用 bar-position 定义边框位置'
+  v2.8.1:
+    en:
+      - '[feature] support prop:scroll-threshold'
+    zh-CN:
+      - '[feature] 支持滚动'
+  v2.7.2:
+    en:
+      - '[feature] support prop:prevent-default #2176'
+    zh-CN:
+      - '[feature] 支持阻止自动切换 #2176'
+  v2.3.5:
+    en:
+      - '[feature] Support badge #1513'
+    zh-CN:
+      - '[feature] 支持设置 badge #1513'
+  v2.2.1-rc.4:
+    en:
+      - '[enhance] Support param:index on event:on-item-click'
+    zh-CN:
+      - '[enhance] 支持 on-item-click 带上 index 参数'
+  v2.1.1-rc.7:
+    en:
+      - '[feature] Support setting bar width with prop:custom-bar-width'
+      - '[fix] Fix errors when initializing without tab-item #1038 @liu2010y'
+    zh-CN:
+      - '[feature] 支持定义 bar 宽度'
+      - '[fix] 修复初始化时没有 tab-item 时导致报错 #1038 @liu2010y'
+  v2.1.0-rc.46:
+    en:
+      - '[feature] add prop:bar-active-color #715 @greedying'
+    zh-CN:
+      - '[feature] 支持设置 `bar-active-color` #715 @greedying'

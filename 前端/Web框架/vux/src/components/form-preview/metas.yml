@@ -1,0 +1,50 @@
+category:
+  en: Form
+  'zh-CN': 表单
+icon: '&#xe699;'
+tags:
+  en:
+    - form
+  zh-CN:
+    - 表单
+props:
+  header-label:
+    type: String
+    default: ''
+    en: header label
+    zh-CN: 头部标题
+  header-value:
+    type: String
+    default: ''
+    en: header value
+    zh-CN: 头部内容
+  body-items:
+    type: Array
+    default: '[]'
+    en: a list of label and value pair
+    zh-CN: 主体内容列表， [{label:'label',value:'value'}]
+  footer-buttons:
+    type: Array
+    default: '[]'
+    en: |
+      button list. Default is a gray style, and the primary text is highlighted. [{style: 'primary', text: 'text', onButtonClick: fn(prop:name), link: '/path'}]
+    zh-CN: '底部按钮列表，default 为灰色样式，primary 文字为高亮颜色， [{style: "primary", text: "text", onButtonClick: fn(prop:name), link: "/path"}]'
+changes:
+  v2.5.12:
+    en:
+      - '[fix] Fix layout issue when header-value is empty #1935'
+    zh-CN:
+      - '[fix] 修复 header-value 为空时的错位问题 #1935'
+  v2.1.1-rc.14:
+    en:
+      - '[fix] Fix variable: form-preview-button-primary-color'
+      - '[feature] Support prop:name #1123'
+    zh-CN:
+      - '[fix] 修复 less 变量：form-preview-button-primary-color'
+      - '[feature] 支持 prop:name 以方便函数调用 #1123'
+  v2.1.0-rc.49:
+    zh-CN:
+      - '[fix] 修复出现滚动条 #920 @asingingfish'
+  v2.0.0:
+    zh-CN:
+      - '[feature] 增加`form-preview`组件'

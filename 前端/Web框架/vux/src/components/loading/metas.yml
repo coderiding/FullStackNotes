@@ -1,0 +1,104 @@
+category:
+  en: Feedback
+  zh-CN: 弹窗提示
+icon: '&#xe610;'
+tags:
+  en:
+    - loading
+    - dialog
+  zh-CN:
+    - 加载
+    - 弹窗
+    - 提示
+extra: |
+   该组件支持以`plugin`形式调用：
+
+   ``` js
+   import  { LoadingPlugin } from 'vux'
+   Vue.use(LoadingPlugin)
+
+   // 或者umd方式
+   // 引入构建的js文件
+   Vue.use(vuxLoadingPlugin)
+   ```
+
+   ``` js
+   // 显示
+   this.$vux.loading.show({
+    text: 'Loading'
+   })
+
+   // 隐藏
+   this.$vux.loading.hide()
+
+   // 获取显示状态
+   this.$vux.loading.isVisible() // true or false, v2.9.1 版本支持
+   ```
+   ::: tip
+   loading同样支持在vue外直接使用，请参照 [https://github.com/airyland/vux/blob/v2/docs/examples/loading.html](https://github.com/airyland/vux/blob/v2/docs/examples/loading.html)
+   :::
+
+   ::: tip
+   从v2.7.8版本开始以组件形式调用增加`delay`参数，从而实现延时显示.
+   :::
+
+props:
+  show:
+    type: Boolean
+    default: false
+    en: visibility of the component. Use `v-model` for binding before v2.5.7, otherwise use `:show`
+    zh-CN: 显示状态，在 v2.5.7 前使用`v-model`绑定，后面直接使用 `:show` 绑定
+  text:
+    type: String
+    default: '加载中'
+    en: loading text, use empty string to hide loading text
+    zh-CN: 提示文字，值为空字符时隐藏提示文字
+  position:
+    type: String
+    default: 'fixed'
+    en: position, default is `fixed`, you can use `absolute`
+    zh-CN: 定位方式，默认为`fixed`，在100%的布局下用`absolute`可以避免抖动
+  transition:
+    type: String
+    default: vux-mask
+    en: transition name
+    zh-CN: 显示动画名字
+slots:
+  default:
+    en: content area
+    zh-CN: 提示文字区域
+changes:
+  v2.9.1:
+    en:
+      - '[feature] add isVisible function for LoadingPlugin #2704'
+      - '[fix] fix covered by element when using scroll plugins'
+    zh-CN:
+      - '[feature] 添加 isVisible 获取当前显示状态 #2704'
+      - '[fix] 修复使用类 scroll 组件时会被覆盖的问题'
+  v2.9.0:
+    en:
+      - '[fix] add variable loading-z-index #2484'
+      - '[enhance] support using empty text to hide loading text #2566'
+    zh-CN:
+      - '[fix] 添加变量 loading-z-index 避免与 toast-z-index 冲突 #2484'
+      - '[enhance] 支持使用空字符隐藏提示文字 #2566'
+  v2.5.7:
+    en:
+      - '[fix] fix vue@2.4 no setter warning, use :show instead of v-model #1798'
+    zh-CN:
+      - '[fix] 修复 vue@2.4 no setter 警告，可以直接用 :show 绑定 #1798'
+  v2.5.0:
+    en:
+      - '[feature] Add prop:transition'
+    zh-CN:
+      - '[feature] 支持 prop:transition'
+  v2.1.1-rc.11:
+    en:
+      - '[enhance] Reset prop data when used as plugin'
+      - '[enhance] Add fade transition'
+    zh-CN:
+      - '[enhance] 以插件形式使用时强制重置属性值'
+      - '[enhance] 添加渐现动画'
+  v2.0.1:
+    zh-CN:
+      - '[fix] i18n 无配置'
