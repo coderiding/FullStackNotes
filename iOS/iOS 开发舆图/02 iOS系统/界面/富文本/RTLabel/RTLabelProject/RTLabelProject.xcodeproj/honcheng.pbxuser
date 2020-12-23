@@ -1,0 +1,222 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* RTLabelProjectAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {707, 624}}";
+			sepNavSelRange = "{1308, 0}";
+			sepNavVisRange = "{877, 692}";
+		};
+	};
+	1D3623250D0F684500981E51 /* RTLabelProjectAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {6816, 1976}}";
+			sepNavSelRange = "{4499, 0}";
+			sepNavVisRange = "{2261, 2107}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* RTLabelProject */ = {
+		activeExec = 0;
+		executables = (
+			F8BDA69412D553BF00B6CC65 /* RTLabelProject */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = F8BDA69412D553BF00B6CC65 /* RTLabelProject */;
+		activeSDKPreference = iphonesimulator4.3;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* RTLabelProject */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* RTLabelProject */,
+		);
+		codeSenseManager = F8BDA6A312D553CA00B6CC65 /* Code sense */;
+		executables = (
+			F8BDA69412D553BF00B6CC65 /* RTLabelProject */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					928,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 330914718;
+			PBXWorkspaceStateSaveDate = 330914718;
+		};
+		perUserProjectItems = {
+			F8DA0F4013B95C9A00F22867 /* PBXTextBookmark */ = F8DA0F4013B95C9A00F22867 /* PBXTextBookmark */;
+			F8DA0F4113B95C9A00F22867 /* PBXTextBookmark */ = F8DA0F4113B95C9A00F22867 /* PBXTextBookmark */;
+			F8DA0F4213B95C9A00F22867 /* PBXTextBookmark */ = F8DA0F4213B95C9A00F22867 /* PBXTextBookmark */;
+			F8DA0F4313B95C9A00F22867 /* PBXTextBookmark */ = F8DA0F4313B95C9A00F22867 /* PBXTextBookmark */;
+			F8DA0F4413B95C9A00F22867 /* PBXTextBookmark */ = F8DA0F4413B95C9A00F22867 /* PBXTextBookmark */;
+		};
+		sourceControlManager = F8BDA6A212D553CA00B6CC65 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1147, 754}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 354}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* RTLabelProject_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1147, 731}}";
+			sepNavSelRange = "{196, 0}";
+			sepNavVisRange = "{0, 196}";
+		};
+	};
+	F801A572136D868000BA1B35 /* DemoTableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {707, 624}}";
+			sepNavSelRange = "{1520, 0}";
+			sepNavVisRange = "{735, 785}";
+		};
+	};
+	F801A573136D868000BA1B35 /* DemoTableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {5416, 2652}}";
+			sepNavSelRange = "{2591, 4}";
+			sepNavVisRange = "{5561, 1596}";
+		};
+	};
+	F801A58C136D879B00BA1B35 /* DemoTableViewCell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {707, 329}}";
+			sepNavSelRange = "{323, 0}";
+			sepNavVisRange = "{0, 329}";
+		};
+	};
+	F801A58D136D879B00BA1B35 /* DemoTableViewCell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1106, 780}}";
+			sepNavSelRange = "{981, 0}";
+			sepNavVisRange = "{3, 1510}";
+		};
+	};
+	F8BDA69412D553BF00B6CC65 /* RTLabelProject */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = RTLabelProject;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	F8BDA69F12D553C900B6CC65 /* RTLabel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1106, 1287}}";
+			sepNavSelRange = "{2558, 14}";
+			sepNavVisRange = "{1383, 1575}";
+		};
+	};
+	F8BDA6A012D553C900B6CC65 /* RTLabel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1615, 14833}}";
+			sepNavSelRange = "{28447, 0}";
+			sepNavVisRange = "{28129, 1449}";
+		};
+	};
+	F8BDA6A212D553CA00B6CC65 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	F8BDA6A312D553CA00B6CC65 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F8DA0F4013B95C9A00F22867 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F801A573136D868000BA1B35 /* DemoTableViewController.m */;
+		name = "DemoTableViewController.m: 70";
+		rLen = 4;
+		rLoc = 2591;
+		rType = 0;
+		vrLen = 1596;
+		vrLoc = 5561;
+	};
+	F8DA0F4113B95C9A00F22867 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8BDA6A012D553C900B6CC65 /* RTLabel.m */;
+		name = "RTLabel.m: 781";
+		rLen = 0;
+		rLoc = 28447;
+		rType = 0;
+		vrLen = 1449;
+		vrLoc = 28129;
+	};
+	F8DA0F4213B95C9A00F22867 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8BDA69F12D553C900B6CC65 /* RTLabel.h */;
+		name = "RTLabel.h: 83";
+		rLen = 14;
+		rLoc = 2558;
+		rType = 0;
+		vrLen = 1575;
+		vrLoc = 1383;
+	};
+	F8DA0F4313B95C9A00F22867 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F801A58D136D879B00BA1B35 /* DemoTableViewCell.m */;
+		name = "DemoTableViewCell.m: 36";
+		rLen = 0;
+		rLoc = 910;
+		rType = 0;
+		vrLen = 1442;
+		vrLoc = 3;
+	};
+	F8DA0F4413B95C9A00F22867 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F801A58D136D879B00BA1B35 /* DemoTableViewCell.m */;
+		name = "DemoTableViewCell.m: 36";
+		rLen = 0;
+		rLoc = 981;
+		rType = 0;
+		vrLen = 1510;
+		vrLoc = 3;
+	};
+}
