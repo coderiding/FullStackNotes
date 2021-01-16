@@ -1,0 +1,67 @@
+PODS:
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - FDFullscreenPopGesture (1.1)
+  - IQKeyboardManager (6.5.6)
+  - Masonry (1.1.0)
+  - MJRefresh (3.5.0)
+  - ReactiveCocoa (11.0.0):
+    - ReactiveSwift (~> 6.2)
+  - ReactiveSwift (6.5.0)
+  - WechatOpenSDK (1.8.7.1)
+  - YTKNetwork (3.0.4):
+    - AFNetworking/NSURLSession (~> 4.0)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - FDFullscreenPopGesture
+  - IQKeyboardManager
+  - Masonry
+  - MJRefresh
+  - ReactiveCocoa
+  - WechatOpenSDK
+  - YTKNetwork (from `https://github.com/yuantiku/YTKNetwork.git`, tag `3.0.4`)
+  - YYModel
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - FDFullscreenPopGesture
+    - IQKeyboardManager
+    - Masonry
+    - MJRefresh
+    - ReactiveCocoa
+    - ReactiveSwift
+    - WechatOpenSDK
+    - YYModel
+
+EXTERNAL SOURCES:
+  YTKNetwork:
+    :git: https://github.com/yuantiku/YTKNetwork.git
+    :tag: 3.0.4
+
+CHECKOUT OPTIONS:
+  YTKNetwork:
+    :git: https://github.com/yuantiku/YTKNetwork.git
+    :tag: 3.0.4
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  ReactiveCocoa: 189fcea9c5af7e394dd8a4cfc1c6f77af9ff3598
+  ReactiveSwift: 8d159904084e908856cde90b2e28823f3c7e485f
+  WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
+  YTKNetwork: a096f80c18c7e7cc0e623a0fbea0a1bfd3f5bcf2
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 29e22a76f58dc8b7d4a8a43aa26e9ffe61979bcf
+
+COCOAPODS: 1.9.3

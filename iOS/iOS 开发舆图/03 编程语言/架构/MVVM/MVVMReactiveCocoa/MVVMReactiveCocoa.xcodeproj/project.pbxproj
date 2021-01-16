@@ -224,6 +224,7 @@
 		24FF300C1B370CFA00915F8E /* BarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FF30071B370CFA00915F8E /* BarItem.m */; };
 		24FF300D1B370CFA00915F8E /* CBStoreHouseRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FF30091B370CFA00915F8E /* CBStoreHouseRefreshControl.m */; };
 		4DBA732D5E1223D6ADCA5C2C /* libPods-MVVMReactiveCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 145C40A7282374531F02687E /* libPods-MVVMReactiveCocoa.a */; };
+		811361C1259BE4C100DCD5B7 /* UIViewController+hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 811361C0259BE4C100DCD5B7 /* UIViewController+hook.m */; };
 		AF5100DD0213C43A4158CD54 /* libPods-MVVMReactiveCocoaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E027E439CDEE3A02FAE54AC /* libPods-MVVMReactiveCocoaTests.a */; };
 /* End PBXBuildFile section */
 
@@ -785,6 +786,8 @@
 		336CB84375D1CDB43B3192D1 /* Pods-MVVMReactiveCocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMReactiveCocoa.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMReactiveCocoa/Pods-MVVMReactiveCocoa.release.xcconfig"; sourceTree = "<group>"; };
 		6744AD26DE1A37FD41B664E6 /* Pods-MVVMReactiveCocoaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMReactiveCocoaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMReactiveCocoaTests/Pods-MVVMReactiveCocoaTests.release.xcconfig"; sourceTree = "<group>"; };
 		6E027E439CDEE3A02FAE54AC /* libPods-MVVMReactiveCocoaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVVMReactiveCocoaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		811361B4259BE4C100DCD5B7 /* UIViewController+hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+hook.h"; sourceTree = "<group>"; };
+		811361C0259BE4C100DCD5B7 /* UIViewController+hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+hook.m"; sourceTree = "<group>"; };
 		BEC741F295238CC28B2C04E5 /* Pods-MVVMReactiveCocoaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMReactiveCocoaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMReactiveCocoaTests/Pods-MVVMReactiveCocoaTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1247,6 +1250,8 @@
 		242D4FD71A64B6FA0026ABC6 /* MVVMReactiveCocoa */ = {
 			isa = PBXGroup;
 			children = (
+				811361B4259BE4C100DCD5B7 /* UIViewController+hook.h */,
+				811361C0259BE4C100DCD5B7 /* UIViewController+hook.m */,
 				24313CAC1A7D3CA700FA357E /* Resource */,
 				240D00D11A654D300033CC86 /* Util */,
 				240D00CB1A654D300033CC86 /* Model */,
@@ -1607,6 +1612,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -2121,6 +2127,7 @@
 				243C5EB31CE8569500E70E42 /* MRCOAuthViewController.m in Sources */,
 				24DF45891A6BF6CD00F23474 /* MRCReposViewController.m in Sources */,
 				24B29BFD1CA6D35D00963648 /* MRCExploreViewModel.m in Sources */,
+				811361C1259BE4C100DCD5B7 /* UIViewController+hook.m in Sources */,
 				2483A4521A69559000BA0594 /* UIImage+MRCOcticons.m in Sources */,
 				24FB0EB71CCC97AA005A151F /* MRCShowcaseHeaderView.m in Sources */,
 				240D012E1A654D300033CC86 /* MRCNavigationControllerStack.m in Sources */,

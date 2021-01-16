@@ -1,0 +1,6 @@
+framework module Pods_MXOCProject_MXOCProjectUITests {
+  umbrella header "Pods-MXOCProject-MXOCProjectUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

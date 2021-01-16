@@ -1,0 +1,31 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MXOCProject' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MXOCProject
+  
+  pod 'MJRefresh'
+  pod 'YYModel'
+  pod 'IQKeyboardManager'
+  pod 'ReactiveCocoa'
+  pod 'FDFullscreenPopGesture'
+  pod 'Masonry'
+  
+  pod 'WechatOpenSDK'
+  pod 'YTKNetwork',:git => 'https://github.com/yuantiku/YTKNetwork.git',:tag => '3.0.4'
+  
+  #pod 'MXCategory'
+
+  target 'MXOCProjectTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MXOCProjectUITests' do
+    # Pods for testing
+  end
+
+end

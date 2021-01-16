@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YQz-6e-NxG">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="nJB-ZZ-41S">
+            <objects>
+                <viewController id="YQz-6e-NxG" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="exl-Dx-1A7">
+                        <rect key="frame" x="0.0" y="0.0" width="800" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GFX-IG-aom">
+                                <rect key="frame" x="0.0" y="0.0" width="800" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gUh-Id-LCY" userLabel="ContainView">
+                                        <rect key="frame" x="0.0" y="0.0" width="800" height="667"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="我可以滚动" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V4I-C4-sR3">
+                                                <rect key="frame" x="61" y="176" width="87" height="239"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="通过调整ContainView的高度来设置滚动的范围，如果一个页面的元素是固定的，然后内容也是固定的，变化的地方很少，那么用ViewController嵌套ScrollView来使用非常合适" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4P-Dr-mgX">
+                                                <rect key="frame" x="740" y="20" width="40" height="627"/>
+                                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="40" id="HPR-ig-JfP"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="E4P-Dr-mgX" firstAttribute="top" secondItem="gUh-Id-LCY" secondAttribute="top" constant="20" symbolic="YES" id="1fa-IJ-pqT"/>
+                                            <constraint firstAttribute="trailing" secondItem="E4P-Dr-mgX" secondAttribute="trailing" constant="20" symbolic="YES" id="KDj-pB-X3C"/>
+                                            <constraint firstAttribute="bottom" secondItem="E4P-Dr-mgX" secondAttribute="bottom" constant="20" symbolic="YES" id="KXP-DQ-iMQ"/>
+                                            <constraint firstAttribute="width" constant="800" id="dE7-4J-1NO"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="gUh-Id-LCY" firstAttribute="bottom" secondItem="GFX-IG-aom" secondAttribute="bottom" id="8cW-jy-LzJ"/>
+                                    <constraint firstItem="gUh-Id-LCY" firstAttribute="leading" secondItem="GFX-IG-aom" secondAttribute="leading" id="RyC-9S-pvJ"/>
+                                    <constraint firstItem="gUh-Id-LCY" firstAttribute="centerY" secondItem="GFX-IG-aom" secondAttribute="centerY" id="XUX-aL-b93"/>
+                                    <constraint firstItem="gUh-Id-LCY" firstAttribute="top" secondItem="GFX-IG-aom" secondAttribute="top" id="rF0-sg-Ks7"/>
+                                    <constraint firstItem="gUh-Id-LCY" firstAttribute="trailing" secondItem="GFX-IG-aom" secondAttribute="trailing" id="v09-zn-Mdj"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="UMg-T1-Q4D"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GFX-IG-aom" firstAttribute="leading" secondItem="UMg-T1-Q4D" secondAttribute="leading" id="E8A-EA-ZWw"/>
+                            <constraint firstItem="GFX-IG-aom" firstAttribute="bottom" secondItem="UMg-T1-Q4D" secondAttribute="bottom" id="I2d-l4-Zvp"/>
+                            <constraint firstItem="GFX-IG-aom" firstAttribute="top" secondItem="UMg-T1-Q4D" secondAttribute="top" id="Zh9-n5-6fQ"/>
+                            <constraint firstItem="GFX-IG-aom" firstAttribute="centerY" secondItem="exl-Dx-1A7" secondAttribute="centerY" id="kub-C7-6Ve"/>
+                            <constraint firstItem="GFX-IG-aom" firstAttribute="trailing" secondItem="UMg-T1-Q4D" secondAttribute="trailing" id="roX-Jx-3k2"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="800" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EjV-Jb-OYK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-106" y="126"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
