@@ -1,0 +1,4 @@
+- 注意：打开的是 NewDemo.xcodeproj 文件，而不是 NewDemo.xcworkspace文件。
+- 此时会弹出提示框，点击 OK 就行。
+- 显示此时项目结构和修改更新Podfile文件
+- 如果你的项目里面没有使用CocoaPods的话，项目应该可以运行成功了。
