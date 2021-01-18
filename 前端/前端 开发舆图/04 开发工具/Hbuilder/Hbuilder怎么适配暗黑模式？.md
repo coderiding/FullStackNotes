@@ -1,0 +1,4 @@
+- 应用开启适配暗黑模式后，系统原生界面（plus.nativeUI）默认会自动适配系统设置的外观样式。
+- 如果不想自动适配系统设置的外观样式，可以调用plus.nativeUI.setUIStyle强制设置原生界面的外观样式。
+- 强制应用弹出原生界面为深色（暗黑模式）外观样式代码，plus.nativeUI.setUIStyle(‘dark’);
+    - light表示浅色外观样式
