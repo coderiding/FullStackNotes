@@ -1,0 +1,3 @@
+```swift
+let metaChangingQueue: DispatchQueue
+```
