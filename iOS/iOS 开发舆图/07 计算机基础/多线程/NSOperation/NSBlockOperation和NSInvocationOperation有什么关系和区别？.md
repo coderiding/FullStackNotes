@@ -1,0 +1,2 @@
+- 二者都是NSOperation的子类，都可以被添加进对垒中（或自己主动执行）
+- NSBlockOperation可以解决NSInvocationOperation传递参数受限的问题。
