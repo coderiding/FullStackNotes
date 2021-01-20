@@ -1,0 +1,1 @@
+extension看起来很像一个匿名的category，但是extension和category几乎完全是两个东西

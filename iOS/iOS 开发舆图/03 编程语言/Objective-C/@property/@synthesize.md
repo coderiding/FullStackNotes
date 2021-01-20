@@ -1,0 +1,1 @@
+@synthesize表示如果属性没有手动实现setter和getter方法，编译器会自动加上这两个方法。
