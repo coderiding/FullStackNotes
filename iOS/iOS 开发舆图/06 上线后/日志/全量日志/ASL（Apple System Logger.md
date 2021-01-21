@@ -1,0 +1,3 @@
+- ASL（Apple System Logger，是苹果公司自己实现的一套输出日志的接口）的 API
+- 在 iOS 10 之后，使用了新的统一日志系统（UnifiedLogging System）来记录日志，全面取代 ASL 的方式
+- Unified logging is available in iOS 10.0 and later, macOS 10.12 andlater, tvOS 10.0 and later, and watchOS 3.0 and later, and supersedesASL (Apple System Logger) and the Syslog APIs. Historically, log messages were written to specific locations on disk, such as /etc/system.log. The unified logging system stores messages in memory and in a data store, rather than writing to text-based log files.
