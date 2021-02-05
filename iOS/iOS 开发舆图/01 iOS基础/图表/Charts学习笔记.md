@@ -12,6 +12,22 @@ https://github.com/danielgindi/Charts
   * 第四步：接着定一个一个dataset，就是针对数据的一个设置，传入事先定义好的数据，还有一个图表的名字，对这个dataset可以设置图表的样式，比如有没有填充，填充颜色，填充透明度，曲线颜色，曲线过度效果，曲线的粗细。
   * 第五步：将第四步做好的dataset赋值给LinerChartView的data属性上
 
+### 参数
+* LineChartModeCubicBezier 会产生回流
+* LineChartModeHorizontalBezier 不会产生回流
+```
+set.cubicIntensity = 0;//阻止回流参数
+[set setCircleRadius:3];//圆点大小
+[set setCircleColor:UIColor.redColor];// 圆点颜色
+set.lineWidth = 2.0;
+[set setColor:[UIColor redColor]];//折线颜色
+set.highlightEnabled = NO;//不显示十字线
+set.drawValuesEnabled = NO;//不显示数值NO
+set.drawCirclesEnabled = YES;//画点
+set.drawFilledEnabled = YES;//是否开启绘制阶梯样式的折线图NO
+set.drawCirclesEnabled = NO;//是否绘制拐点NO
+```
+
 ### 各种图
 
 * PieChart 对应饼状图

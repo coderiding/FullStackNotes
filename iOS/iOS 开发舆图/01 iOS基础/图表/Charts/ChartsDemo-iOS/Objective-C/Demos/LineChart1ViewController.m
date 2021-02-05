@@ -69,22 +69,22 @@
     _chartView.xAxis.gridLineDashLengths = @[@10.0, @10.0];
     _chartView.xAxis.gridLineDashPhase = 0.f;
     
-    ChartLimitLine *ll1 = [[ChartLimitLine alloc] initWithLimit:150.0 label:@"Upper Limit"];
-    ll1.lineWidth = 4.0;
-    ll1.lineDashLengths = @[@5.f, @5.f];
-    ll1.labelPosition = ChartLimitLabelPositionRightTop;
-    ll1.valueFont = [UIFont systemFontOfSize:10.0];
-    
-    ChartLimitLine *ll2 = [[ChartLimitLine alloc] initWithLimit:-30.0 label:@"Lower Limit"];
-    ll2.lineWidth = 4.0;
-    ll2.lineDashLengths = @[@5.f, @5.f];
-    ll2.labelPosition = ChartLimitLabelPositionRightBottom;
-    ll2.valueFont = [UIFont systemFontOfSize:10.0];
+//    ChartLimitLine *ll1 = [[ChartLimitLine alloc] initWithLimit:150.0 label:@"Upper Limit"];
+//    ll1.lineWidth = 4.0;
+//    ll1.lineDashLengths = @[@5.f, @5.f];
+//    ll1.labelPosition = ChartLimitLabelPositionRightTop;
+//    ll1.valueFont = [UIFont systemFontOfSize:10.0];
+//
+//    ChartLimitLine *ll2 = [[ChartLimitLine alloc] initWithLimit:-30.0 label:@"Lower Limit"];
+//    ll2.lineWidth = 4.0;
+//    ll2.lineDashLengths = @[@5.f, @5.f];
+//    ll2.labelPosition = ChartLimitLabelPositionRightBottom;
+//    ll2.valueFont = [UIFont systemFontOfSize:10.0];
     
     ChartYAxis *leftAxis = _chartView.leftAxis;
     [leftAxis removeAllLimitLines];
-    [leftAxis addLimitLine:ll1];
-    [leftAxis addLimitLine:ll2];
+//    [leftAxis addLimitLine:ll1];
+//    [leftAxis addLimitLine:ll2];
     leftAxis.axisMaximum = 200.0;
     leftAxis.axisMinimum = -50.0;
     leftAxis.gridLineDashLengths = @[@5.f, @5.f];
@@ -96,14 +96,14 @@
     //[_chartView.viewPortHandler setMaximumScaleY: 2.f];
     //[_chartView.viewPortHandler setMaximumScaleX: 2.f];
     
-    BalloonMarker *marker = [[BalloonMarker alloc]
-                             initWithColor: [UIColor colorWithWhite:180/255. alpha:1.0]
-                             font: [UIFont systemFontOfSize:12.0]
-                             textColor: UIColor.whiteColor
-                             insets: UIEdgeInsetsMake(8.0, 8.0, 20.0, 8.0)];
-    marker.chartView = _chartView;
-    marker.minimumSize = CGSizeMake(80.f, 40.f);
-    _chartView.marker = marker;
+//    BalloonMarker *marker = [[BalloonMarker alloc]
+//                             initWithColor: [UIColor colorWithWhite:180/255. alpha:1.0]
+//                             font: [UIFont systemFontOfSize:12.0]
+//                             textColor: UIColor.whiteColor
+//                             insets: UIEdgeInsetsMake(8.0, 8.0, 20.0, 8.0)];
+//    marker.chartView = _chartView;
+//    marker.minimumSize = CGSizeMake(80.f, 40.f);
+//    _chartView.marker = marker;
     
     _chartView.legend.form = ChartLegendFormLine;
     
