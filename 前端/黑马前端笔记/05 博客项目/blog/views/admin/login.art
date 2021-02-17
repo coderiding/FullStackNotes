@@ -37,7 +37,7 @@
         $('#loginForm').on('submit', function () {
             // 获取到表单中用户输入的内容{汶：数据解析}
             var result = serializeToJson($(this))
-            // 如果用户没有输入邮件地址的话
+            // 如果用户没有输入邮件地址的话{trim去掉两边空格}
             if (result.email.trim().length == 0) {
                 alert('请输入邮件地址');
                 // 阻止程序向下执行

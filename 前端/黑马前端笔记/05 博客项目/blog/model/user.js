@@ -1,5 +1,7 @@
 // 引入mongoose第三方模块
 const mongoose = require('mongoose');
+// 导入bcrypt
+const bcrypt = require('bcrypt');
 const { use } = require('../route/home');
 
 // 创建用户集合规则
@@ -37,17 +39,20 @@ const userSchema = new mongoose.Schema({
 // 创建集合
 const User = mongoose.model('User',userSchema);
 
-// User.create ({
-//     username:'iteheima',
-//     email: 'williamliu32@aliyiun.com',
-//     password: '123456',
-//     role: 'admin',
-//     state: 0
-// }).then(() => {
-//     console.log('用户创建成功')
-// }).catch(() => {
-//     console.log('用户创建失败')
-// }) 
+async function createUser () {
+    const salt = await bcrypt.genSalt(10); 
+    const pass = await bcrypt.hash('123456',salt);
+
+    const user = await User.create ({
+        username:'iteheima',
+        email: 'williamliu321@aliyiun.com',
+        password: pass,
+        role: 'admin',
+        state: 0
+    });
+
+    console.log(user);
+} 
 
 // 以后可能开放多个，所以用集合方式
 module.exports = {

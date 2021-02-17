@@ -11,7 +11,7 @@
         	<!-- 分类标题 -->
             <div class="title">
                 <h4>用户</h4>
-                <span>找到1个用户</span>
+                <span>找到1个用户</span> 
                 <a href="/admin/user-edit" class="btn btn-primary new">新增用户</a>
             </div>
             <!-- /分类标题 -->
