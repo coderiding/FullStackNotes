@@ -1,0 +1,21 @@
+var NAVTREEINDEX2 =
+{
+"struct_m_a_coordinate_region.html#af63d9832b48a21924c0b9c9ec9e4a38c":[0,0,6,1],
+"struct_m_a_coordinate_span.html":[0,0,7],
+"struct_m_a_coordinate_span.html#a1e46639e5970b5f462179b406961fa20":[0,0,7,0],
+"struct_m_a_coordinate_span.html#a7945dec056c9b3ea520cfee32acaf2c4":[0,0,7,1],
+"struct_m_a_map_point.html":[0,0,15],
+"struct_m_a_map_point.html#aa01bbb9ce5d2969a3e8bff9cddba9e2b":[0,0,15,0],
+"struct_m_a_map_point.html#aa3222cb2e069b0f17f5fd9283e578918":[0,0,15,1],
+"struct_m_a_map_rect.html":[0,0,16],
+"struct_m_a_map_rect.html#a677282a033f0f31cd735c7df97337e3a":[0,0,16,0],
+"struct_m_a_map_rect.html#aeaec60bbda1c0da837768ae23afc7a97":[0,0,16,1],
+"struct_m_a_map_size.html":[0,0,17],
+"struct_m_a_map_size.html#ab510a37816b8283290450368340906c4":[0,0,17,1],
+"struct_m_a_map_size.html#af5490484d44f5e4e5290fac1ed3c92ac":[0,0,17,0],
+"struct_m_a_tile_overlay_path.html":[0,0,41],
+"struct_m_a_tile_overlay_path.html#a0fd116e27092b36a61b57958f30d17f9":[0,0,41,2],
+"struct_m_a_tile_overlay_path.html#a3521132c303d4059ac107b30034a2865":[0,0,41,1],
+"struct_m_a_tile_overlay_path.html#a699773cba1edbcb6297e1d02e68f55d5":[0,0,41,3],
+"struct_m_a_tile_overlay_path.html#a8886982cfab5b8ab11f623fc794ee172":[0,0,41,0]
+};

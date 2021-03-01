@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['maannotationviewdragstatecanceling',['MAAnnotationViewDragStateCanceling',['../_m_a_annotation_view_8h.html#a935595a0dddfe6a310319d85cc4eb95bae9f6c5f51c3f3c6c138372524dc31d44',1,'MAAnnotationView.h']]],
+  ['maannotationviewdragstatedragging',['MAAnnotationViewDragStateDragging',['../_m_a_annotation_view_8h.html#a935595a0dddfe6a310319d85cc4eb95bae5744b70a78d0537fd78bd55581add91',1,'MAAnnotationView.h']]],
+  ['maannotationviewdragstateending',['MAAnnotationViewDragStateEnding',['../_m_a_annotation_view_8h.html#a935595a0dddfe6a310319d85cc4eb95ba65fa5a156a5e6f9fce55ce996a61b2ae',1,'MAAnnotationView.h']]],
+  ['maannotationviewdragstatenone',['MAAnnotationViewDragStateNone',['../_m_a_annotation_view_8h.html#a935595a0dddfe6a310319d85cc4eb95babad246635c2fd0ec15d387147d88e17e',1,'MAAnnotationView.h']]],
+  ['maannotationviewdragstatestarting',['MAAnnotationViewDragStateStarting',['../_m_a_annotation_view_8h.html#a935595a0dddfe6a310319d85cc4eb95ba47f7bd27e7ecd7bfd8e27b75bd25bb5d',1,'MAAnnotationView.h']]],
+  ['macoordinatetypealiyun',['MACoordinateTypeAliYun',['../_m_a_geometry_8h.html#ae70311d48c2650cc607252f637bec4f6a72d3b12c9cb806622164bbe933375034',1,'MAGeometry.h']]],
+  ['macoordinatetypebaidu',['MACoordinateTypeBaidu',['../_m_a_geometry_8h.html#ae70311d48c2650cc607252f637bec4f6a2a6e17566024e35086ddea3839aede0d',1,'MAGeometry.h']]],
+  ['macoordinatetypegoogle',['MACoordinateTypeGoogle',['../_m_a_geometry_8h.html#ae70311d48c2650cc607252f637bec4f6aa020cb395294d34731dc57750ab8cf4d',1,'MAGeometry.h']]],
+  ['macoordinatetypegps',['MACoordinateTypeGPS',['../_m_a_geometry_8h.html#ae70311d48c2650cc607252f637bec4f6ae9cf13001b83894d7f9e65143ed24de2',1,'MAGeometry.h']]],
+  ['macoordinatetypemapabc',['MACoordinateTypeMapABC',['../_m_a_geometry_8h.html#ae70311d48c2650cc607252f637bec4f6a1e15c2b47bac423648550d52d94bb3b3',1,'MAGeometry.h']]],
+  ['macoordinatetypemapbar',['MACoordinateTypeMapBar',['../_m_a_geometry_8h.html#ae70311d48c2650cc607252f637bec4f6ac68873a0af890db76315b3059012b0a2',1,'MAGeometry.h']]],
+  ['macoordinatetypesosomap',['MACoordinateTypeSoSoMap',['../_m_a_geometry_8h.html#ae70311d48c2650cc607252f637bec4f6ab60cf23488b65f0a7b64e8797d6f125f',1,'MAGeometry.h']]],
+  ['mamaplanguageen',['MAMapLanguageEn',['../_m_a_map_view_8h.html#a8d56071bc6abb3d2efb9a263f6738485a9eb8b82f11e213fb719d703afb6d463e',1,'MAMapView.h']]],
+  ['mamaplanguagezhcn',['MAMapLanguageZhCN',['../_m_a_map_view_8h.html#a8d56071bc6abb3d2efb9a263f6738485a23a8076672f94846d655abcdc1a73bd0',1,'MAMapView.h']]],
+  ['mamaptypesatellite',['MAMapTypeSatellite',['../_m_a_map_view_8h.html#a5d886bab9d38be604fbe32a4fe994ed3a48b5d61fb470cd3d9bc1fbd359e56266',1,'MAMapView.h']]],
+  ['mamaptypestandard',['MAMapTypeStandard',['../_m_a_map_view_8h.html#a5d886bab9d38be604fbe32a4fe994ed3ac9fc8b6df95bc097f840982089d65012',1,'MAMapView.h']]],
+  ['mapinannotationcolorgreen',['MAPinAnnotationColorGreen',['../_m_a_pin_annotation_view_8h.html#acbc6e2cb3e9b02a03d574819291396e0a41d58ac7190e6aea0b7263bca2771261',1,'MAPinAnnotationView.h']]],
+  ['mapinannotationcolorpurple',['MAPinAnnotationColorPurple',['../_m_a_pin_annotation_view_8h.html#acbc6e2cb3e9b02a03d574819291396e0ad4be2003ecb4c9c219be99d441dc432b',1,'MAPinAnnotationView.h']]],
+  ['mapinannotationcolorred',['MAPinAnnotationColorRed',['../_m_a_pin_annotation_view_8h.html#acbc6e2cb3e9b02a03d574819291396e0a18e204f3dd28dc2e961668bc295b762c',1,'MAPinAnnotationView.h']]],
+  ['mausertrackingmodefollow',['MAUserTrackingModeFollow',['../_m_a_map_view_8h.html#abd5906b49b1c430e6b3b5cc6b66e0fa0a17d6501dc4d576b5f734fd299311d686',1,'MAMapView.h']]],
+  ['mausertrackingmodefollowwithheading',['MAUserTrackingModeFollowWithHeading',['../_m_a_map_view_8h.html#abd5906b49b1c430e6b3b5cc6b66e0fa0a7e87328dbe4daf4572a9f418c3c43250',1,'MAMapView.h']]],
+  ['mausertrackingmodenone',['MAUserTrackingModeNone',['../_m_a_map_view_8h.html#abd5906b49b1c430e6b3b5cc6b66e0fa0a68b5b4750136070eaf6efb2453697510',1,'MAMapView.h']]]
+];
