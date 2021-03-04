@@ -1,0 +1,1 @@
+https://lbsyun.baidu.com/index.php?title=ios-panosdk/sdkios-pano-download

@@ -1,0 +1,1 @@
+https://docs.jiguang.cn//jpush/advanced/rich_push/

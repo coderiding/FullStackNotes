@@ -1,0 +1,1 @@
+猎鹰服务(service id)的创建，请参考猎鹰API创建服务接口，创建服务获取到的sid即为service id（注意创建服务需要使用“Web服务“类型的key，不能使用iOS SDK类型的key），猎鹰sdk不提供创建服务方法。

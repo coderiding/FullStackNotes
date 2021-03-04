@@ -1,0 +1,1 @@
+如果想一直显示，需要自定义annotationview，将泡泡作为annotationview的一部分，一直显示

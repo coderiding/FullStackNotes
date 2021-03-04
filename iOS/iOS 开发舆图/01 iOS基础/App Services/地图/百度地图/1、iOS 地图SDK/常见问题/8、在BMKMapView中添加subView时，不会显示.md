@@ -1,0 +1,1 @@
+SDK会控制BMKMapView各个子view的压盖顺序，所以不能直接将view添加到BMKMapView上，可以添加到BMKMapView的superview里，这样就可以显示了

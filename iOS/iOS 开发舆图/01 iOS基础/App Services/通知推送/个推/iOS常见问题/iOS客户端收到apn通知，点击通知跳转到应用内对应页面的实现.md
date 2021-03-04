@@ -1,0 +1,3 @@
+服务端设置apn代码中通过addCustomMsg参数，参照php的代码$apn->add_customMsg("payload","阿波罗度上市"); ，添加apn自定义参数，当客户端收到apn通知栏提醒并点击会触发客户端didreceiveremotenotification方法，获取这个payload参数数据，获取到之后你可以自己解析处理跳转。
+
+扩展场景：部分用户希望效果是先打开app首页，再跳转到指定的页面；该场景对应的是在transmissioncontent中添加对应参数，客户端收到通知后打开app首页，在didrecevierpayload中拿到transmissioncontent的内容，然后处理跳转。

@@ -1,0 +1,1 @@
+在 BMKMapView类 中 - (void) showAnnotations: (NSArray *) annotations animated: (BOOL) animated 详细请查找BMKMapView类参考

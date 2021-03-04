@@ -1,0 +1,1 @@
+demo中没有ak，需要将demo中的ak和bundle id都改成在控制台申请的就可以了

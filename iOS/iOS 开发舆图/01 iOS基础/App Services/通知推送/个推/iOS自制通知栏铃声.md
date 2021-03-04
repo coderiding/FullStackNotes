@@ -1,0 +1,1 @@
+把自制好的的铃声添加到项目的main bundle中后，在项目设置中Build Phases-Copy Bundle Resources中添加你的铃声文件，铃声文件不能超过30秒 ；推送的时候在apninfo中的setsound中设置文件名全称即可。

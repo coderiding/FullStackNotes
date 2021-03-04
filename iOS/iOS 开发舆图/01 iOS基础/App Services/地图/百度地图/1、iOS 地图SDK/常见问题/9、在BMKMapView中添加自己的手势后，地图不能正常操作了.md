@@ -1,0 +1,1 @@
+添加自己的手势后，SDK无法正常处理手势事件造成的。添加自定义手势时，必须设置UIGestureRecognizer的属性cancelsTouchesInView 和 delaysTouchesEnded 为NO,否则影响地图内部的手势处理
