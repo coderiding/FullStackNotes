@@ -1,0 +1,12 @@
+# scrollToRowAtIndexPath滚动不准的问题
+
+* mx：设置一下estimatedRowHeight和自动变高就会好点
+
+UITableView
+UITableView在reloadData 的时候，如果height的高度发生较大变化，contentOffset无法保持原来的大小时，会发生滚动的效果。如果直接reloadData再setContentOffset:设置位置，仍会出现滚动的效果。
+ 如果需要去除该滚动效果，可以在reloadData之后，调用scrollToRowAtIndexPath并设置animated:NO，最后再用setContentOffset:微调位置。
+ 同理，如果需要在reloadData后，手动scroll到header时，可用同上的解决方案。
+
+UITableView还有类似的问题，如果列表项过多时，scrollToRowAtIndexPath有时并不准确，比如有1000行时滚动到第500行，此时可能会出现滚到501或者499行的情况。
+ 究其原因，是因为UITableView不会调用1~499行所有的heightFor和cellFor方法，所以无法准确计算出来位置。
+ 从这里去分析，如果需要滚动到准确的位置，可以用estimatedRowHeight的属性，设置和行高一样的高度；在行高各不相同的场景，可以设置estimatedRowHeight为大致的数字，在scrollToRowAtIndexPath之后通过setContentOffset:微调位置。

@@ -1,2 +1,0 @@
-- 均可用于常量、函数文件、模块等
-- 在一个文件或模块中，export，import可以有多个，export default仅有一个。

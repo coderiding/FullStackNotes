@@ -1,0 +1,236 @@
+category:
+  en: Form
+  'zh-CN': 表单
+icon: '&#xe61b;'
+import_code: "&nbsp;"
+extra:
+  en: |
+
+    ```html
+      <group>
+        <x-address title="title" v-model="value"></x-address>
+      </group>
+    ```
+
+    ``` js
+    import { XAddress } from 'vux'
+
+    // you can import built-in data
+    import { XAddress, ChinaAddressV3Data } from 'vux'
+
+    // if you need older data
+    import { XAddress, ChinaAddressV1Data } from 'vux'
+    ```
+
+    ::: tip
+    you can view source data at [src/datas](https://github.com/airyland/vux/tree/v2/src/datas).
+    :::
+
+    ::: tip
+    `x-address` should be used in `Group`
+    :::
+
+  zh-CN: |
+    ```html
+      <group>
+        <x-address title="title" v-model="value"></x-address>
+      </group>
+    ```
+    ``` js
+    import { XAddress } from 'vux'
+
+    // 如果你需要引入数据，如果你的版本低于 v2.2.0，请使用 ChinaAddressData
+    import { XAddress, ChinaAddressV4Data } from 'vux'
+
+    // 如果需要引入旧版数据
+    import { XAddress, ChinaAddressV2Data } from 'vux'
+    ```
+    ::: tip
+    如果你需要单独引入地址数据，可以在源码[src/datas](https://github.com/airyland/vux/tree/v2/src/datas)找到。
+    :::
+    ::: tip
+    设计上 `x-address` 只能在 `Group` 中使用。但是你依然可以不在 `Group` 中使用，使用 `display:none` 隐藏然后用 :show.sync 来控制组件显示状态。
+    :::
+
+
+    ``` html
+    <x-address style="display:none;" title="title" v-model="value" :list="addressData" placeholder="请选择地址" :show.sync="showAddress"></x-address>
+    ```
+
+    <p>
+    v4 和 v3 的区别是在 v4 里重庆多了县列表。
+    <br>
+    从 `2.1.1-rc.12` 开始，`直辖区`做了简化，原来是 北京市-北京市市辖区-东城区，现在是 北京市-市辖区-东城区。组件内部做了兼容，你以`raw-value`方式传入两种写法表现和旧版本一致，不会出错。
+    <br>
+    <br>
+    从 `2.1.1-rc.15` 开始，数据必须指定版本，原来的 `ChinaAddressData` 废弃并停留在 `v2` 版本不再更新。
+    <br>
+    不同版本数据差异可以从[这里](https://github.com/airyland/china-area-data)找到。
+    </p>
+tags:
+  en:
+    - form
+    - address
+  zh-CN:
+    - 地址
+    - 省市
+extends:
+  - popup-picker
+props:
+  raw-value:
+    type: Boolean
+    default: false
+    en: if the initial value is `string value` instead of `id value`
+    zh-CN: 指定初始化时绑定的数据是否为文本(即省市名，而不是id)类型，即对于非id值组件内部会转换为id。如果是异步设置value，只能使用id赋值。
+  title:
+    type: String
+    default: ''
+    en: label text
+    zh-CN: 表单标题
+  value:
+    type: Array
+    default: ''
+    en: 'form value, use `v-model` for binding'
+    zh-CN: '表单值, 使用`v-model`绑定'
+  list:
+    type: Array
+    default: ''
+    en: address data
+    zh-CN: 地址列表, 可以引入内置地址数据或者用自己的数据，但是需要按照一致的数据结构。
+  inline-desc:
+    type: String
+    default: ''
+    en: description text below label
+    zh-CN: 标题下的描述
+  placeholder:
+    type: String
+    default: ''
+    en: placeholder
+    zh-CN: 没有值时的提示文字
+  hide-district:
+    type: Boolean
+    default: false
+    en: if hide district column
+    zh-CN: 是否隐藏区，即只显示省份和城市
+  value-text-align:
+    type: String
+    default: right
+    en: 'align setting of `value`'
+    zh-CN: 'value 对齐方式(text-align), `v2.1.0-rc.49`开始支持'
+  popup-style:
+    version: v2.5.2
+    type: Object
+    en: popup style
+    zh-CN: 弹窗样式，可以用于强制指定 z-index
+  show:
+    version: v2.5.8
+    type: Boolean
+    en: popup show (supports the .sync modifier next)
+    zh-CN: 显示 (支持.sync修饰 next)
+  disabled:
+    version: v2.9.0
+    type: Boolean
+    en: whether disabled selecting
+    zh-CN: 是否禁用选择
+slots:
+  title:
+    version: v2.3.8
+    en: title slot
+    zh-CN: title 插槽，可以使用它来添加 icon 等自定义样式，受控于 group 需要从 scope 里继承 class 和 样式
+events:
+  on-hide:
+    en: emits when being closed
+    zh-CN: 关闭后触发，当非确定时，参数为false，反之为true
+  on-show:
+    en: emits when being open
+    zh-CN: 显示时触发
+  on-shadow-change:
+    version: v2.5.6
+    params: '`(Array ids, Array names)`'
+    en: emits when picker value is changed
+    zh-CN: picker 值变化时触发，即滑动 picker 时触发
+changes:
+  v2.9.0:
+    en:
+      - '[feature] add prop:disabled #2641'
+    zh-CN:
+      - '[feature] 添加属性 disabled 支持禁用 #2641'
+  v2.8.0:
+    en:
+      - '[change] remove empty root div #2371'
+    zh-CN:
+      - '[change] 去除空的根节点 #2371'
+  v2.7.0:
+    en:
+      - '[fix] fix vue@2.5.0 scope issue #2076'
+      - '[feature] add prop:popup-title(use component:popup-header) #1866'
+    zh-CN:
+      - '[fix] 兼容 vue@2.5.0 scope 更名为 slot-scope 的问题 #2076'
+      - '[feature] 增加属性 popup-title(使用 popup-header 组件) #1866'
+  v2.6.2:
+    en:
+      - '[fix] update address data #2000'
+    zh-CN:
+      - '[fix] 更新地址数据 #2000'
+  v2.5.9:
+    en:
+      - '[feature] prop:show supports the .sync modifier'
+    zh-CN:
+      - '[feature] prop:show 支持.sync修饰'
+  v2.5.8:
+    en:
+      - '[feature] Add prop:show to control visibility'
+    zh-CN:
+      - '[feature] 新增 prop:show 控制是否显示'
+  v2.5.6:
+    en:
+      - '[feature] Support event:on-shadow-change #1778'
+    zh-CN:
+      - '[feature] 支持在滑动 picker 时触发事件 on-shadow-change #1778'
+  v2.5.2:
+    en:
+      - '[feature] Add prop:popup-style #1656'
+    zh-CN:
+      - '[feature] 支持弹窗样式设置 prop:popup-style #1656'
+  v2.3.8:
+    en:
+      - '[feature] Add slot:title #1389'
+    zh-CN:
+      - '[feature] 添加 slot:title，方便自定义样式 #1389'
+  v2.2.2:
+    en:
+      - '[feature] Support setting value by labels(beta)'
+    zh-CN:
+      - '[feature] 支持使用地址文字直接赋值(测试)'
+  v2.2.1-rc.6:
+    en:
+      - '[feature] Support prop:display-format'
+    zh-CN:
+      - '[feature] 支持属性  display-format'
+  v2.2.1-rc.3:
+    en:
+      - '[feature] Support prop:confirm-text and prop:cancel-text. #1233'
+    zh-CN:
+      - '[feature] 支持设置 取消 和 确定 文字. #1233'
+  v2.2.0:
+    en:
+      - '[enhance] Upgrade datas #1101'
+    zh-CN:
+      - '[enhance] 更新地区数据 #1101'
+  v2.1.1-rc.12:
+    en:
+      - '[enhance] Simpify Address data #1101'
+    zh-CN:
+      - '[enhance] 简化市辖区数据'
+  v2.1.1-rc.7:
+    en:
+      - '[enhance] Support PC mouse drag  #1039 @michael829'
+    zh-CN:
+      - '[enhance] 支持 PC 上鼠标选择 #1039 @michael829'
+  v2.1.0-rc.49:
+    en:
+      - '[feature] support `value-text-align` #921 @linhaobin'
+      - '[fix] fix `label` styles not conform to `group` settings'
+    zh-CN:
+      - '[feature] 支持`value-text-align` #921 @linhaobin'
+      - '[fix] 修复`label`样式不受控于`group`属性的bug'

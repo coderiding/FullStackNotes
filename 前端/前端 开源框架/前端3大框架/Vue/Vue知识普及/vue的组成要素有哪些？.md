@@ -1,0 +1,6 @@
+- el：el 的作用大家都知道，用于指明 Vue 实例的挂载目标。我们重点关注上面两个部分，总结一下就是：如果存在 render 函数或 template 属性，则挂载元素会被 Vue 生成的 DOM 替换；否则，挂载元素所在的 HTML 会被提取出来用作模版。
+- data：用于数据存储。
+- methods：用于存储各种方法。
+- v-show：是使用display属性来判断是否显示。
+- 单击事件：v-on：click = “方法”，简写：@click = “方法”
+- 双击事件：v-on: dbclick = “方法”，简写：@dbclick = “方法”

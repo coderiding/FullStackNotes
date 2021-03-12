@@ -1,0 +1,89 @@
+category:
+  en: Form
+  'zh-CN': 表单
+icon: '&#xe60b;'
+tags:
+  en:
+    - range
+    - form
+  zh-CN:
+    - 选择
+    - 表单
+props:
+  value:
+    type: Number
+    default: 0
+    en: form value, use `v-model` for binding
+    zh-CN: 表单值，使用`v-model`绑定
+  decimal:
+    type: Boolean
+    default: false
+    en: if show decimals when value is changed
+    zh-CN: 是否在变化时显示小数
+  min:
+    type: Number
+    default: 0
+    en: min number
+    zh-CN: 可选最小值
+  max:
+    type: Number
+    default: 100
+    en: max number
+    zh-CN: 可选最大值
+  step:
+    type: Number
+    default: 1
+    en: step value
+    zh-CN: 步长
+  disabled:
+    type: Boolean
+    default: false
+    en: if disabled
+    zh-CN: 是否禁用
+  minHTML:
+    en: custom html template for min value
+    zh-CN: 最小值显示的html模板
+  maxHTML:
+    en: custom html template for max value
+    zh-CN: 最大值显示的html模板
+  disabled-opacity:
+    type: Number
+    en: opacity value when is disabled
+    zh-CN: 禁用样式的透明度
+  range-bar-height:
+    type: Number
+    default: 1
+    en: range bar's height
+    zh-CN: 高度
+events:
+  on-change:
+    version: v2.2.2
+    params: '`(value)`'
+    en: emits when value is changed
+    zh-CN: 绑定值变化时触发事件
+  on-touchstart:
+    version: v2.9.2
+    params: '`(event)`'
+    en: trigger when finger is placed on element
+    zh-CN: 手指放到元素上时触发
+  on-touchend:
+    version: v2.9.2
+    params: '`(event)`'
+    en: trigger when finger leaves the element
+    zh-CN: 手指离开元素时触发
+changes:
+  v2.9.2:
+    en:
+      - '[feature] add on-touchstart and on-touchend events #2804'
+    zh-CN:
+      - '[feature] 新增on-touchstart 和 on-touchend事件 #2804'
+  v2.4.0:
+    en:
+      - '[fix] Fix the situation cannot drag to max value #1556'
+    zh-CN:
+      - '[fix] 修复一些情况下无法拖到最大值的问题 #1556'
+  v2.2.2:
+    en:
+      - '[feature] Support dynamically setting step #1394'
+    zh-CN:
+      - '[feature] 支持动态设置 step #1394'

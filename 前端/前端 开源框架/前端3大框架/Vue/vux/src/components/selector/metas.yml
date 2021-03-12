@@ -1,0 +1,124 @@
+category:
+  en: Form
+  'zh-CN': 表单
+icon: '&#xe607;'
+extra:
+  zh-CN: |
+    ```html
+      <group>
+        <selector title="title" v-model="value"></selector>
+      </group>
+    ```
+
+    ::: tip
+    `selector`只能在`Group`中使用
+    :::
+
+    ::: warning
+    在`iOS`上，如果没有指定`placeholder`也没有指定`value`，会出现弹出选择框时默认选中第一个值，但是确定后依然没有选中的情况。
+    <br>
+    因此对于`iOS`，组件内部在列表项前面增加了一个空的`option`，强制用户滑动选择一次以避免上面的问题。
+    :::
+tags:
+  en:
+    - form
+    - select
+    - selector
+    - option
+  zh-CN:
+    - 选择
+    - 下拉选择
+tips:
+  -
+    - en: key should be a `String` if you use key=>value
+    - zh-CN: 选项的key必须是字符串，使用数字会出现问题
+props:
+  value:
+    type: String,Number,Object
+    en: form value, use `v-model` for binding
+    zh-CN: 表单值，使用v-model绑定
+  title:
+    en: label text
+    zh-CN: 标题
+  direction:
+    en: align value
+    zh-CN: 选项对齐方式，同原生 select 属性一致，可选值为 ltr(left-to-right，默认), rtl
+  options:
+    type: Array
+    en: "option list, `['one', 'two']` or `[{ key: KEY, value: VALUE }]`"
+    zh-CN: '选项列表，可以为简单数组，或者 `{ key: KEY, value: VALUE }` 结构的键值对数组。当使用键值对时，返回的`value`为`key`的值。'
+  name:
+    en: form name
+    zh-CN: 表单的name名字
+  placeholder:
+    en: placeholder
+    zh-CN: 提示文字
+  readonly:
+    type: Boolean
+    default: 'false'
+    en: if the select is readonly
+    zh-CN: 是否不可选择
+  value-map:
+    version: v2.7.2
+    type: Array
+    en: 'set a [value, label] pair for automatically transforming API data'
+    zh-CN: 设置键值对映射用以自动转换接口数据, 如 ['value', 'label']
+events:
+  on-change:
+    params: '`(value)`'
+    en: emits when value is changed
+    zh-CN: 值变化时触发
+methods:
+  getFullValue:
+    version: v2.7.2
+    en: get full value including all the props(if option items are object)
+    zh-CN: 获取当前完整值，在使用了 valueMap 里可以用该方法来获取当前选中值的原始对象
+changes:
+  2.9.3:
+    en:
+      - '[fix] fix the chinese bracket show error when direction=rtl #2864'
+    zh-CN:
+      - '[fix] 修复direction=rtl时的中文括号显示异常 #2864'
+  v2.9.0:
+    en:
+      - '[fix] avoid newer-version-vue select value issue #2633 #2587'
+      - '[enhance] use v-html for title #2615'
+    zh-CN:
+      - '[fix] 修复新版本 vue 导致的 select 值问题 #2633 #2587'
+      - '[enhance] 标题使用 v-html #2615'
+  v2.7.2:
+    en:
+      - '[feature] add prop:value-map for automatically transform API data #2139'
+      - '[feature] add method:getFullValue for getting full value'
+    zh-CN:
+      - '[feature] 支持 value-map 属性用以自动转换 API 数据 #2139'
+      - '[feature] 支持 getFullValue 方法获取当中选中值的原始数据'
+  v2.7.0:
+    en:
+      - '[fix] fix ssr rendering issue'
+      - '[fix] fix placeholder not show when value is null #2101'
+    zh-CN:
+      - '[fix] 兼容服务端渲染'
+      - '[fix] 修复值为 null 时 placeholder 没有显示的问题 #2101'
+  v2.3.3:
+    en:
+      - '[enhance] set placeholder color. #1465'
+    zh-CN:
+      - '[enhance] 设置 placeholder 颜色. #1465'
+  v2.2.2:
+    en:
+      - '[fix] fix label:for missing'
+    zh-CN:
+      - '[fix] 修复 label for 属性值缺失'
+  v2.2.1-rc.6:
+    en:
+      - '[fix] fix placeholder. #1273'
+    zh-CN:
+      - '[fix] 修复 placeholder 逻辑问题. #1273'
+  v2.1.1-rc.14:
+    en:
+      - '[fix] fix can not set Selector name attrbiute bug #1133'
+      - '[enhance] Selector value support Boolean. @rbao'
+    zh-CN:
+      - '[fix] 修复Selector不能设置name属性的问题#1133'
+      - '[enhance] Selector的value支持布尔型. @rbao'

@@ -1,0 +1,68 @@
+category:
+  en: Data Display
+  zh-CN: 数据展示
+icon: '&#xe658;'
+props:
+  header:
+    en: header title
+    zh-CN: 头部文字
+  footer:
+    type: 'Object'
+    en: 'footer config, `{url: url, title: title}`'
+    zh-CN: '尾部配置，`{url: url, title: title}`'
+  list:
+    type: 'Array'
+    en: content list `[{title, desc, src, fallbackSrc, meta:{source,date,other}}]`
+    zh-CN: 内容列表，`[{title, desc, src, fallbackSrc, meta:{source,date,other}}]`
+  type:
+    default: '1'
+    en: one of '1', '2', '3', '4', '5'
+    zh-CN: 布局类型，可选值 ['1', '2', '3', '4', '5']
+events:
+  on-click-header:
+    en: emits when clicking header
+    zh-CN: 点击头部时触发
+  on-click-item:
+    en: emits when clicking item
+    params: '`(item)`'
+    zh-CN: 点击内容列表时触发
+  on-click-footer:
+    en: emits when clicking footer
+    zh-CN: 点击尾部时触发
+slots:
+  header:
+    version: v2.7.5
+    zh-CN: 头部位置
+    en: header
+  body:
+    version: v2.7.5
+    zh-CN: 主体内容部分
+    en: the main body part
+changes:
+  v2.7.9:
+    en:
+      - '[fix] hide footer when footer.title is empty #2476'
+    zh-CN:
+      - '[fix] footer.title 为空时隐藏 footer #2476'
+  v2.7.5:
+    en:
+      - '[fix] remove duplicate top border'
+      - '[feature] add slot:header slot:body #2270'
+    zh-CN:
+      - '[fix] 移除重复顶部边框样式'
+      - '[feature] 添加 slot:header slot:body #2270'
+  v2.6.0:
+    en:
+      - '[enhance] support list prop:fallbackSrc #1923'
+    zh-CN:
+      - '[enhance] 支持列表 fallbackSrc 属性在图片加载失败后显示 #1923'
+  v2.5.7:
+    en:
+      - '[feature] use v-html binding #1784'
+    zh-CN:
+      - '[feature] 属性使用 v-html 绑定 #1784'
+  v2.5.2:
+    en:
+      - '[feature] Add type(4,5) and info meta(source,date,other)'
+    zh-CN:
+      - '[feature] 增加type类型(4,5)和描述信息(来源,时间和其他自定义信息)'

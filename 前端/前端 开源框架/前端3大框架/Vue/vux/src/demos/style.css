@@ -1,0 +1,10 @@
+.demo-icon {
+  font-family: 'vux-demo';
+  font-size:20px;
+  padding-right: 10px;
+  color: #04BE02;
+}
+
+.demo-icon:before {
+  content: attr(icon);
+}

@@ -1,0 +1,206 @@
+description: |
+  Picker是指提供多个选项集合供用户选择其中一项的控件。Picker展示区域有限，部分选项会被隐藏，最好是当用户对所有选项都比较熟悉、有预期的时候，才使用Picker。
+  - 合理的默认选项能让用户减少操作次数，提升效率。
+  - 选项的排列顺序要依据当前上下文情景而定，例如衣服尺码按从小到大的顺序排列，而不是根据衣服尺码的首字母在字母表的顺序排列。
+  - 滚轮选择器控制在五列以内。为了保证手机屏幕触控精度，以免发生误触，滚轮选择器建议控制在五列以内。
+  - 使用相对概念增强感知。比起绝对的“某年某月日”，用“今天”、“昨天”等相对概念，能更快的激发人对时间的感知。
+  - 如果选项非常多，而且选项本身比较复杂难理解需要辅助的解释，建议用容纳更多的选项的其他形式，例如日历或者新页面。
+
+
+category:
+  en: Form
+  'zh-CN': 表单
+icon: '&#xe627;'
+tags:
+  en:
+    - picker
+    - form
+  zh-CN:
+    - 选择
+    - 表单
+    - 联动
+extra: |
+
+  ::: warning
+    请确保列表项的`value`值是字符串，使用数字会出错。
+    <br />
+    如果你的业务接口返回数字值为数字，需要你先处理成字符串；同样，获取到值时为字符串，你需要自己转换成数字。
+  :::
+
+  非联动情况下，列表数据格式示例：
+
+  ``` js
+  // data
+  [['小米', 'iPhone', '华为', '情怀', '三星', '其他', '不告诉你'], ['小米1', 'iPhone2', '华为3', '情怀4', '三星5', '其他6', '不告诉你7']]
+
+  // 或者使用 name => value 的形式
+  [[{
+    name: '2019届5班',
+    value: '1'
+  }, {
+    name: '2019届4班',
+    value: '2'
+  }]]
+
+  // value
+  ['小米', '小米1']
+  ```
+
+  联动时，列表数据格式示例：
+
+  ``` js
+  // data
+  [{
+    name: '中国',
+    value: 'china',
+    parent: '0' // 为一级时可以不写 parent，但是此时允许为数字 0、空字符串或者字符串 '0'
+  }, {
+    name: '美国',
+    value: 'USA',
+    parent: '0'
+  }, {
+    name: '广东',
+    value: 'china001',
+    parent: 'china'
+  }, {
+    name: '广西',
+    value: 'china002',
+    parent: 'china'
+  }, {
+    name: '美国001',
+    value: 'usa001',
+    parent: 'USA'
+  }, {
+    name: '美国002',
+    value: 'usa002',
+    parent: 'USA'
+  }, {
+    name: '广州',
+    value: 'gz',
+    parent: 'china001'
+  }, {
+    name: '深圳',
+    value: 'sz',
+    parent: 'china001'
+  }, {
+    name: '广西001',
+    value: 'gx001',
+    parent: 'china002'
+  }, {
+    name: '广西002',
+    value: 'gx002',
+    parent: 'china002'
+  }, {
+    name: '美国001_001',
+    value: '0003',
+    parent: 'usa001'
+  }, {
+    name: '美国001_002',
+    value: '0004',
+    parent: 'usa001'
+  }, {
+    name: '美国002_001',
+    value: '0005',
+    parent: 'usa002'
+  }, {
+    name: '美国002_002',
+    value: '0006',
+    parent: 'usa002'
+  }]
+  ```
+
+props:
+  value:
+    type: Array
+    default: ''
+    en: 'picker value, use `v-model` for binding'
+    zh-CN: '表单值，使用 `v-model` 绑定'
+  data:
+    type: Array
+    default: ''
+    en: array list
+    zh-CN: 选项列表数据
+  columns:
+    type: Number
+    en: how many columns in chained-mode
+    zh-CN: 指定联动模式下的列数，当不指定时表示非联动
+  fixed-columns:
+    type: Number
+    en: how many columns will show
+    zh-CN: 指定显示多少列，隐藏多余的
+  column-width:
+    type: Array
+    version: v2.2.0
+    en: 'custom width for each picker column, for example for a 3-column picker: [1/2, 1/5] '
+    zh-CN: 定义每一列宽度，只需要定义除最后一列宽度，最后一列自动宽度， 比如对于3列选择，可以这样：[1/2, 1/5]
+events:
+  on-change:
+    params: '`(value)`'
+    en: emits when value is changed
+    zh-CN: 选择值变化时触发
+methods:
+  getNameValues:
+    version: v2.3.1
+    en: get labels of current value
+    zh-CN: 根据 value 获取字面值
+changes:
+  v2.9.4:
+    en:
+      - '[fix] Fix chain mode get value is wrong when quickly scroll multiple children.'
+    zh-CN:
+      - '[fix] 修复多级联动模式下，快速滚动多个项，取值不正确'
+  2.9.3:
+    en:
+      - '[fix] fix Uncaught TypeError: Cannot assign to read only property exports of object #3386'
+    zh-CN:
+      - '[fix] 修复 fix Uncaught TypeError: Cannot assign to read only property exports of object #3386'
+  v2.9.0:
+    en:
+      - '[enhance] show warning when picker value is not a string #2568'
+    zh-CN:
+      - '[enhance] 开发模式下 picker 数据非字符串时显示提示 #2568'
+  v2.7.9:
+    en:
+      - '[fix] fix typo item_class => itemClass #2457'
+    zh-CN:
+      - '[fix] 修正 itemClass 拼写错误 #2457'
+  v2.7.8:
+    en:
+      - '[fix] Fix chain mode get value is wrong when the children is empty data.'
+    zh-CN:
+      - '[fix] 修复多级联动模式下，子代没有数据时，取值不正确。'
+  v2.7.3:
+    en:
+      - '[enhance] add development tip for chained-mode picker without specifying prop:columns'
+    zh-CN:
+      - '[enhance] 渲染出错时提示是否联动数据忘了指定列数'
+  v2.7.0:
+    en:
+      - '[change] picker move distance do not respect html[data-dpr] by default #2082 #1979'
+    zh-CN:
+      - '[change] picker 移动距离不再遵从 html[data-dpr]，需使用 ConfigPlugin 配置 #2082 #1979'
+  v2.6.2:
+    en:
+      - '[enhance] scroll distance respects html[data-dpr] #1979'
+    zh-CN:
+      - '[enhance] 滚动距离支持从 html[data-dpr] 换算 #1979'
+  v2.3.1:
+    en:
+      - '[feature] Add getNameValues Method #1418'
+    zh-CN:
+      - '[feature] 增加获取对应文字方法 #1418'
+  v2.2.1-rc.3:
+    en:
+      - '[fix] Fix no re-rendering when value is set to empty array. #1230'
+    zh-CN:
+      - '[fix] 修复当值设为空数组时不会重新渲染的问题. #1230'
+  v2.1.1-rc.7:
+    en:
+      - '[enhance] Support PC mouse drag  #1039 @michael829'
+    zh-CN:
+      - '[enhance] 支持 PC 上鼠标选择 #1039 @michael829'
+  v2.4.1:
+    en:
+      - '[fix] Fix a bug caused by unexpected end of json value #1584'
+    zh-CN:
+      - '[fix] 修复json格式不正确引起的bug #1584'

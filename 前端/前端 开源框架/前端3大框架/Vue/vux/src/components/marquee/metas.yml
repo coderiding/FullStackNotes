@@ -1,0 +1,53 @@
+category:
+  en: Data Display
+  'zh-CN': 数据展示
+icon: '&#xe662;'
+import_code: "import { Marquee, MarqueeItem } from 'vux'"
+items:
+  - marquee
+  - marquee-item
+marquee:
+  props:
+    interval:
+      type: Number
+      default: 2000
+      en: switch interval time
+      zh-CN: 切换时间间隙
+    duration:
+      type: Number
+      default: 300
+      en: animation time
+      zh-CN: 切换动画时间
+    direction:
+      default: up
+      en: direction of animation, can be in ['up', 'down']
+      zh-CN: 切换方向，可选['up', 'down']
+    item-height:
+      type: Number
+      en: item height, set value if marquee initial state is hidden
+      zh-CN: 条目高度，当默认状态为隐藏时你需要设置值，否则组件渲染时会获取不到正确高度
+  slots:
+      default:
+        en: container of marquee items
+        zh-CN: 内容插槽
+marquee-item:
+  slots:
+    default:
+      en: content slot
+      zh-CN: 内容插槽
+changes:
+  v2.5.10:
+    en:
+      - '[feature] Support prop:item-height #1885'
+    zh-CN:
+      - '[feature] 支持 prop:item-height #1885'
+  v2.1.1-rc.12:
+    en:
+      - '[feature] Support async marquee-item'
+    zh-CN:
+      - '[feature] 支持异步数据渲染'
+  v2.1.0:
+    en:
+      - '[feature] new component'
+    zh-CN:
+      - '[feature] 新组件'

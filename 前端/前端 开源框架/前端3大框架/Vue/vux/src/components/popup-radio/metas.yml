@@ -1,0 +1,95 @@
+category:
+  en: Form
+  'zh-CN': 表单
+icon: '&#xe60f;'
+extra:
+  en: props are the same as cell's and radio's. Be aware that it doesnot support fillMode.
+  zh-CN: 属性同 cell 和 Radio 的属性，需要注意的是不支持 fillMode。
+tags:
+  en:
+    - radio
+    - form
+  zh-CN:
+    - 表单
+    - 单选
+props:
+  readonly:
+    version: v2.3.6
+    en: readonly, shown like a cell
+    zh-CN: 只读样式，类似于 cell
+slots:
+  popup-header:
+    version: v2.3.3
+    en: popup header slot
+    zh-CN: 弹窗顶部
+  each-item:
+    version: v2.3.7
+    en: custom how label displays
+    zh-CN: 自定义每个条目显示内容
+events:
+  on-show:
+    version: v2.6.5
+    en: fires when popup shows
+    zh-CN: 弹窗显示时触发
+  on-hide:
+    version: v2.6.5
+    en: fires when popup hides
+    zh-CN: 弹窗关闭时触发
+changes:
+  v2.7.8:
+    en:
+      - '[fix] fix popup-radio component does not support the border-intent property of the cell component.'
+    zh-CN:
+      - '[fix] 修复 popup-radio 组件不支持cell组件中 border-intent 的属性。'
+  v2.7.0:
+    en:
+      - '[fix] fix vue@2.5.0 scope issue #2076'
+    zh-CN:
+      - '[fix] 兼容 vue@2.5.0 scope 更名为 slot-scope 的问题 #2076'
+  v2.6.5:
+    en:
+      - '[feature] add event:on-hde event:on-show #2053'
+    zh-CN:
+      - '[feature] 支持事件 on-show on-hide #2053'
+  v2.6.0:
+    en:
+      - '[fix] fix placeholder logic #1964'
+    zh-CN:
+      - '[fix] 修复 placeholder 显示逻辑 #1964'
+  v2.5.10:
+    en:
+      - '[feature] support @cell-value-color #1874'
+    zh-CN:
+      - '[feature] 值文字颜色受控于 @cell-value-color #1874'
+  v2.3.7:
+    en:
+      - '[feature] Add slot:each-item'
+    zh-CN:
+      - '[feature] 添加 slot:each-item'
+  v2.3.6:
+    en:
+      - '[feature] Add prop:readonly'
+      - '[feature] Add slot:icon'
+    zh-CN:
+      - '[feature] 添加 prop:readonly'
+      - '[feature] 添加 slot:icon'
+  v2.3.3:
+    en:
+      - '[feature] Support slot:popup-header'
+    zh-CN:
+      - '[feature] 支持 slot:popup-header'
+  v2.3.1:
+    en:
+      - '[fix] fix cell display value'
+    zh-CN:
+      - '[fix] 修复文字值显示'
+  v2.2.1-rc.8:
+    en:
+      - '[fix] fix label width'
+    zh-CN:
+      - '[fix] 修复 label 宽度'
+  v2.2.1-rc.4:
+    en:
+      - '[feature] new component'
+    zh-CN:
+      - '[feature] 新组件'

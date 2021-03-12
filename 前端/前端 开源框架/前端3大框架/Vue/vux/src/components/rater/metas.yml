@@ -1,0 +1,67 @@
+category:
+  en: Form
+  'zh-CN': 表单
+icon: '&#xe606;'
+color: '#FF9900'
+tags:
+  en:
+    - form
+    - rate
+    - rater
+  zh-CN:
+    - 表单
+    - 星级
+    - 评分
+props:
+  max:
+    type: Number
+    default: 5
+    en: total star number
+    zh-CN: 最多可选个数
+  value:
+    type: Number
+    default: 0
+    en: selected value, use `v-model` for binding
+    zh-CN: 值，使用 v-model 绑定
+  disabled:
+    type: Boolean
+    default: false
+    en: if disabled
+    zh-CN: 是否禁用
+  star:
+    type: String
+    default: '★'
+    en: start's symbol text
+    zh-CN: 字符
+  active-color:
+    type: String
+    default: '#fc6'
+    en: symbol color when selected
+    zh-CN: 选中时的颜色
+  margin:
+    type: Number
+    default: 2
+    en: margin value
+    zh-CN: 间隙值
+  font-size:
+    type: Number
+    default: 25
+    en: font size
+    zh-CN: 字体大小
+  min:
+    type: Number
+    version: v2.7.9
+    default: 0
+    en: min value
+    zh-CN: 最小值
+changes:
+  v2.7.9:
+    en:
+      - '[feature] prop:min add min value #2439'
+    zh-CN:
+      - '[feature] prop:min 增加最小值 #2439'
+  v2.7.3:
+    en:
+      - '[feature] prop:star support html #2182'
+    zh-CN:
+      - '[feature] prop:star 支持 html #2182'
