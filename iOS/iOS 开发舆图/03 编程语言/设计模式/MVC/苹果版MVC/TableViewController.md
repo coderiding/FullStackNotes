@@ -1,3 +1,13 @@
+### MVC关系图
+![C1IO7e](https://gitee.com/threecornerstones/ThreeCornerstones_Pic/raw/master/uPic/C1IO7e.png)
+
+---
+
+
+
+### 核心
+通过控制器来将从网络请求的数据转成Mode加载到View上，View被添加到控制器上，所以控制器拥有View和Model，控制器作为中间人来加载Mode到View上。
+
 ### 分工
 
 - TableViewController展示一个列表，属于MVC里面的Controller
