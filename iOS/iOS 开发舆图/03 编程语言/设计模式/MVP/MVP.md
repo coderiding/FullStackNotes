@@ -7,6 +7,6 @@
 - TableViewController拥有Presenter，TableViewController把自己传给Presenter，Presenter弱引用TableViewController，在Presenter里面，将制作的View添加到传入的TableViewController上，设置Presenter为View的代理，处理View的事件
 - 注意：这里的View和Model是相互独立的
 
-优点：可以创建多个Presenter来完成TableViewController的工作，比如TableViewController上有多个View，那么可以通过多个Presenter来实现，最后拼在一起。
+优点：可以创建多个Presenter来完成TableViewController的工作，比如TableViewController上有多个View，那么可以通过多个Presenter来实现（每一个P管理一个View，最后控制器由很多的P组合而成），最后拼在一起。
 
 ![https://gitee.com/threecornerstones/ThreeCornerstones_Pic/raw/master/uPic/2lfKC9.png](https://gitee.com/threecornerstones/ThreeCornerstones_Pic/raw/master/uPic/2lfKC9.png)
