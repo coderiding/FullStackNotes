@@ -1,0 +1,1 @@
+<view class="newsdetail"><view class="tit">{{''+messages.title+''}}</view><view class="info"><text>{{"浏览时间："+messages.add_time}}</text><text>{{"点击量："+messages.click}}</text></view><view class="content"><rich-text nodes="{{messages.content}}"></rich-text></view></view>

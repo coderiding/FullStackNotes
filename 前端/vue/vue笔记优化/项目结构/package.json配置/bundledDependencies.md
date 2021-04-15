@@ -1,0 +1,1 @@
+* bundledDependencies => 和上面的配置不同，为数组格式，其中包含需要被打包进本地 package 里的依赖模块名，通过 npm pack 命令生成一个模块包

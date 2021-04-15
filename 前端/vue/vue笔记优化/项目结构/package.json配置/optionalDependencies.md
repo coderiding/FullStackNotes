@@ -1,0 +1,1 @@
+* optionalDependencies => 放置一些项目中可忽略其各种错误的包模块，和 dependencies 一样，但该模块可有可无（ps. 该配置命名也很直观🤐）

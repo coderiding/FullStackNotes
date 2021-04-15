@@ -1,0 +1,1 @@
+<view><goods-component vue-id="ebcd5ac0-1" goods="{{goodsList}}" bind:__l="__l"></goods-component><block wx:if="{{flag}}"><view class="bottom_line">-----我是有底线的-----</view></block></view>

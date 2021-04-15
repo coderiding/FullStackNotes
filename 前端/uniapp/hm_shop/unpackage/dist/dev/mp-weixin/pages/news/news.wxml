@@ -1,0 +1,1 @@
+<view class="news"><news_item-compontent vue-id="1cdd0ce0-1" newList="{{newList}}" data-event-opts="{{[['^goItemDetail',[['goDetail']]]]}}" bind:goItemDetail="__e" bind:__l="__l"></news_item-compontent></view>

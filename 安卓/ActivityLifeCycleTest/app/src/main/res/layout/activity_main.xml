@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androdi="http://schemas.android.com/apk/res/android"
+    androdi:orientation="vertical"
+    androdi:layout_width="match_parent"
+    androdi:layout_height="wrap_content">
+
+    <Button
+        androdi:id="@+id/start_normal_activity"
+        androdi:layout_width="match_parent"
+        androdi:layout_height="wrap_content"
+        androdi:text="Start NormalActivity"/>
+
+    <Button
+        androdi:id="@+id/start_dialog_activity"
+        androdi:layout_width="match_parent"
+        androdi:layout_height="wrap_content"
+        androdi:text="Start DialogActivity"/>
+</LinearLayout>

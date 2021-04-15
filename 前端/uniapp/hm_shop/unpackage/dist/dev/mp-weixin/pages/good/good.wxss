@@ -1,0 +1,10 @@
+
+.bottom_line {
+	font-size: 28rpx;
+	text-align: center;
+	width: 100%;
+	height: 50rpx;
+	color: #ccc;
+	line-height: 50rpx;
+}
+

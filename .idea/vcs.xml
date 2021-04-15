@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/iOS/iOS 开源框架/KJExtensionHandler" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/iOS/iOS 开源框架/KJLoadingDemo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/iOS/iOS 越狱/iOS Tweak/FLEXLoader" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/iOS/iOS 越狱/iOS Tweak/FLEXLoader/FLEX" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/iOS/iOS 越狱/iOS Tweak/WeChatRedEnvelop/theos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/前端/vue/vue_sell" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/前端/前端 开源项目/ZY-Player" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/前端/黑马前端笔记/06 电商后台管理系统/vue_shop" vcs="Git" />
+  </component>
+</project>
