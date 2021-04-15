@@ -1,0 +1,84 @@
+body {
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin:0 auto;
+    font-size: 14px;
+    font-family: -apple-system,Helvetica,sans-serif;
+    line-height: 1.5;
+    color: #666;
+    background-color: lightgray;
+    height: 2000px;
+}
+
+/*点击高亮我们需要清除清除  设置为transparent 完成透明*/
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+/*在移动端浏览器默认的外观在iOS上加上这个属性才能给按钮和输入框自定义样式*/
+
+input {
+    -webkit-appearance: none;
+}
+
+/*禁用长按页面时的弹出菜单*/
+
+img,
+a {
+    -webkit-touch-callout: none;
+}
+
+a {
+    color: #666;
+
+}
+
+/* 去除图片上面的缝隙 */
+img {
+    vertical-align: middle;
+}
+
+ul {
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+
+.search-index {
+    position: fixed;
+    -webkit-transform: translateX(-50%);
+    top: 0;
+    left: 50%;
+    width: 100%;
+    min-width: 320px;
+    max-width: 540px;
+    height: 44px;
+    background-color: pink;
+    display: flex;
+}
+
+.search {
+    flex:1;
+    background-color: white;
+}
+
+/* 伪元素 */
+.user::before {
+    content: "";
+    /* 行内元素，需要改成block */
+    display: block;
+    width: 23px;
+    height: 23px;
+    background: url(../images/sprite.png) no-repeat -59px -194px;
+    background-size: 104px auto;
+}
+
+.user {
+    width: 44px;
+    height: 44px;
+    background-color: purple;
+    text-align: center;
+    font-size: 12px;
+}
