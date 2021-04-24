@@ -1,0 +1,150 @@
+[
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/layout_custom_dialog.xml.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/drawable-v21_notification_action_background.xml.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/layout_notification_action_tombstone.xml.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/layout_notification_template_icon_group.xml.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/layout-v21_notification_template_custom_big.xml.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/layout_notification_action.xml.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/android/app/src/alpha/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/drawable_notification_bg.xml.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/drawable_launch_background.xml.flat",
+        "source": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/android/app/src/main/res/drawable/launch_background.xml"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/android/app/src/alpha/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/layout_notification_template_part_time.xml.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/layout-v21_notification_action.xml.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/android/app/src/alpha/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/drawable_notification_tile_bg.xml.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/layout-v21_notification_template_icon_group.xml.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/drawable_notification_bg_low.xml.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/layout-v16_notification_template_custom_big.xml.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/layout-v16/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/drawable_notification_icon_background.xml.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/android/app/src/alpha/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/layout_notification_template_part_chronometer.xml.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/android/app/src/alpha/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/layout-v21_notification_action_tombstone.xml.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/res/merged/alpha/debug/drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+    }
+]

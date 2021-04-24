@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: TabNavigator(),
-      showSemanticsDebugger: true,
+//      showSemanticsDebugger: true,
     );
   }
 }

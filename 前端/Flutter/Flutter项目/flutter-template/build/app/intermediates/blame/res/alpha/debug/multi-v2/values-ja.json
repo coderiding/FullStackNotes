@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/flutter-template/build/app/intermediates/incremental/mergeAlphaDebugResources/merged.dir/values-ja/values-ja.xml",
+            "map": [
+                {
+                    "source": "/Users/coderiding/.gradle/caches/transforms-2/files-2.1/61a4322994bff311c55a1e748aab7916/core-1.1.0/res/values-ja/values-ja.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+framework module flutter_isolate {
+  umbrella header "flutter_isolate-umbrella.h"
+
+  export *
+  module * { export * }
+}

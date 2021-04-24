@@ -1,0 +1,6 @@
+framework module audio_service {
+  umbrella header "audio_service-umbrella.h"
+
+  export *
+  module * { export * }
+}

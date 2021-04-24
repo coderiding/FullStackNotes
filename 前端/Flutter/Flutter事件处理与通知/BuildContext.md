@@ -1,0 +1,7 @@
+上下文对象是整个APP Widget树结构中的Widget话柄，每个Wideget对应的都有属于自己的BuildContext
+
+context实际上就是操作Element的一个接口
+
+与Element树上的节点是对应的
+
+通过context就可以知道Widget在Widget树中的位置
