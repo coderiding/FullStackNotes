@@ -1,0 +1,4 @@
+弹性布局允许子组件按照一定比例来分配父容器空间。弹性布局的概念在其它UI系统中也都存在，如H5中的弹性盒子布局，Android中的FlexboxLayout等。Flutter中的弹性布局主要通过Flex和Expanded来配合实现。
+
+
+https://book.flutterchina.club/chapter4/flex.html

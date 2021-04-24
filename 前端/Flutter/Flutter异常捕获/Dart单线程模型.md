@@ -1,0 +1,1 @@
+https://book.flutterchina.club/chapter2/thread_model_and_error_report.html#_2-6-1-dart%E5%8D%95%E7%BA%BF%E7%A8%8B%E6%A8%A1%E5%9E%8B

@@ -1,0 +1,7 @@
+所谓线性布局，即指沿水平或垂直方向排布子组件。Flutter中通过Row和Column来实现线性布局，类似于Android中的LinearLayout控件。Row和Column都继承自Flex
+
+Row可以在水平方向排列其子widget。
+
+Column可以在垂直方向排列其子组件。
+
+https://book.flutterchina.club/chapter4/row_and_column.html

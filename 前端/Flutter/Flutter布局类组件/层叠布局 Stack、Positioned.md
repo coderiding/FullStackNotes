@@ -1,0 +1,3 @@
+Flutter中使用Stack和Positioned这两个组件来配合实现绝对定位。Stack允许子组件堆叠，而Positioned用于根据Stack的四个角来确定子组件的位置。
+
+https://book.flutterchina.club/chapter4/stack.html

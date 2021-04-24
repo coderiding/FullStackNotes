@@ -1,0 +1,1 @@
+https://book.flutterchina.club/chapter13/multi_languages_support.html
