@@ -8,6 +8,33 @@ uses-material-design: true的作用仅仅是决定Material图标是否应用到�
 
 Material其实是包含cupertino的，cupertino只是对Material中某些控件的第二种封装，部分组件提供额外一套风格的选择。
 
+### MaterialApp 系统标配参数
+```DART
+class MyApp extends StatelessWidget {
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        // This is the theme of your application.
+        //
+        // Try running your application with "flutter run". You'll see the
+        // application has a blue toolbar. Then, without quitting the app, try
+        // changing the primarySwatch below to Colors.green and then invoke
+        // "hot reload" (press "r" in the console where you ran "flutter run",
+        // or simply save your changes to "hot reload" in a Flutter IDE).
+        // Notice that the counter didn't reset back to zero; the application
+        // is not restarted.
+        primarySwatch: Colors.blue,
+      ),
+      home: MyHomePage(title: 'Flutter Demo Home Page'),
+    );
+  }
+}
+```
+
+
 ### MaterialApp属性
 
 * 1、title ： 在任务管理窗口中所显示的应用名字

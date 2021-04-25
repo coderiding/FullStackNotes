@@ -1,0 +1,13 @@
+// This is a generated file; do not edit or check into version control.
+FLUTTER_ROOT=/Users/coderiding/flutter
+FLUTTER_APPLICATION_PATH=/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/gsy_github_app_flutter
+FLUTTER_TARGET=/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/gsy_github_app_flutter/lib/main.dart
+FLUTTER_BUILD_DIR=build
+SYMROOT=${SOURCE_ROOT}/../build/ios
+FLUTTER_BUILD_NAME=1.7.0
+FLUTTER_BUILD_NUMBER=32
+DART_DEFINES=flutter.inspector.structuredErrors%3Dtrue
+DART_OBFUSCATION=false
+TRACK_WIDGET_CREATION=true
+TREE_SHAKE_ICONS=false
+PACKAGE_CONFIG=/Users/coderiding/FullStackNotes/前端/Flutter/Flutter项目/gsy_github_app_flutter/.dart_tool/package_config.json

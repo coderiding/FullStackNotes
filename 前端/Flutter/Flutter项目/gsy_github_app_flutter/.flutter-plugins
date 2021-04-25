@@ -1,0 +1,26 @@
+# This is a generated file; do not edit or check into version control.
+android_intent=/Users/coderiding/flutter/.pub-cache/hosted/pub.flutter-io.cn/android_intent-2.0.0/
+connectivity=/Users/coderiding/flutter/.pub-cache/hosted/pub.flutter-io.cn/connectivity-3.0.0/
+connectivity_macos=/Users/coderiding/flutter/.pub-cache/hosted/pub.flutter-io.cn/connectivity_macos-0.2.0/
+device_info=/Users/coderiding/flutter/.pub-cache/hosted/pub.flutter-io.cn/device_info-2.0.0/
+flutter_webview_plugin=/Users/coderiding/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_webview_plugin-0.3.11/
+fluttertoast=/Users/coderiding/flutter/.pub-cache/hosted/pub.flutter-io.cn/fluttertoast-8.0.1-nullsafety.0/
+package_info=/Users/coderiding/flutter/.pub-cache/hosted/pub.flutter-io.cn/package_info-2.0.0/
+path_provider=/Users/coderiding/flutter/.pub-cache/hosted/pub.flutter-io.cn/path_provider-2.0.0/
+path_provider_linux=/Users/coderiding/flutter/.pub-cache/hosted/pub.flutter-io.cn/path_provider_linux-2.0.0/
+path_provider_macos=/Users/coderiding/flutter/.pub-cache/hosted/pub.flutter-io.cn/path_provider_macos-2.0.0/
+path_provider_windows=/Users/coderiding/flutter/.pub-cache/hosted/pub.flutter-io.cn/path_provider_windows-2.0.0/
+permission_handler=/Users/coderiding/flutter/.pub-cache/hosted/pub.flutter-io.cn/permission_handler-6.0.1/
+share=/Users/coderiding/flutter/.pub-cache/hosted/pub.flutter-io.cn/share-2.0.0/
+shared_preferences=/Users/coderiding/flutter/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences-2.0.1/
+shared_preferences_linux=/Users/coderiding/flutter/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences_linux-2.0.0/
+shared_preferences_macos=/Users/coderiding/flutter/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences_macos-2.0.0/
+shared_preferences_web=/Users/coderiding/flutter/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences_web-2.0.0/
+shared_preferences_windows=/Users/coderiding/flutter/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences_windows-2.0.0/
+sqflite=/Users/coderiding/flutter/.pub-cache/hosted/pub.flutter-io.cn/sqflite-2.0.0/
+url_launcher=/Users/coderiding/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher-6.0.1/
+url_launcher_linux=/Users/coderiding/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_linux-2.0.0/
+url_launcher_macos=/Users/coderiding/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_macos-2.0.0/
+url_launcher_web=/Users/coderiding/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_web-2.0.0/
+url_launcher_windows=/Users/coderiding/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_windows-2.0.0/
+webview_flutter=/Users/coderiding/flutter/.pub-cache/hosted/pub.flutter-io.cn/webview_flutter-2.0.0/
