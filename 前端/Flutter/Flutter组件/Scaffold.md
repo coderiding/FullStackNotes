@@ -1,5 +1,7 @@
 Scaffold 是 Material 库中提供的页面脚手架，它提供了默认的导航栏、标题和包含主屏幕widget树（后同“组件树”或“部件树”）的body属性
 
+https://blog.csdn.net/u011578734/article/details/108774862   https://app.yinxiang.com/shard/s35/nl/9757212/0f0dc5f7-1d90-4679-b161-798d78c3be5e
+
 ### Scaffold 系统自带 必备参数
 ```DART
   @override

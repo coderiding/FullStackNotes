@@ -1,0 +1,1 @@
+ GlobalKey能够跨Widget访问状态。  https://www.jianshu.com/p/d37f97a926a8  https://app.yinxiang.com/shard/s35/nl/9757212/cd7ce2b2-9d53-4d3d-a2b0-7df9d389c3a8  

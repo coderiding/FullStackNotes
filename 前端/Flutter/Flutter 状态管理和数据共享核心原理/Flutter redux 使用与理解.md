@@ -1,0 +1,1 @@
+https://www.jianshu.com/p/5fe99e0f25d4   https://app.yinxiang.com/shard/s35/nl/9757212/5535907b-0f87-459c-af6a-064d2aed8c5a https://github.com/leo-shi9527/FlutterReduxDemo/blob/master/lib/redux/appState.dart

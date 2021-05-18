@@ -1,3 +1,0 @@
-https://book.flutterchina.club/chapter7/inherited_widget.html
-
-InheritedWidget是Flutter中非常重要的一个功能型组件，它提供了一种数据在widget树中从上到下传递、共享的方式，比如我们在应用的根widget中通过InheritedWidget共享了一个数据，那么我们便可以在任意子widget中来获取该共享的数据！

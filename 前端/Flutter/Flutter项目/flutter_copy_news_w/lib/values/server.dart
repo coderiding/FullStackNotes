@@ -1,0 +1,1 @@
+const SERVER_API_URL = 'https://xxx.com/api/';

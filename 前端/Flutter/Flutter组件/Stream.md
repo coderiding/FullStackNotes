@@ -1,0 +1,1 @@
+在 Flutter 中有两种处理异步操作的方式 Future 和 Stream，Future 用于处理单个异步操作，Stream 用来处理连续的异步操作。比如往水杯倒水，将一个水杯倒满为一个 Future，连续的将多个水杯倒满就是 Stream。

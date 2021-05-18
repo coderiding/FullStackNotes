@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a5425c0a-ffed-4e46-be09-3df642141a33" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../vue/vue_sell" beforeDir="false" afterPath="$PROJECT_DIR$/../../../vue/vue_sell" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../黑马前端笔记/06 电商后台管理系统/vue_shop" beforeDir="false" afterPath="$PROJECT_DIR$/../../../黑马前端笔记/06 电商后台管理系统/vue_shop" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1reXO25xThE6V4JADo0P2WupHyw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5425c0a-ffed-4e46-be09-3df642141a33" name="Default Changelist" comment="" />
+      <created>1619337493438</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619337493438</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1238" height="2" key="GridCell.Tab.0.bottom" timestamp="1619400432797">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="1238" height="476" key="GridCell.Tab.0.bottom/0.25.1280.775/-2970.25.1920.1055/-1050.25.1050.1655@-2970.25.1920.1055" timestamp="1619361169097" />
+    <state width="1238" height="2" key="GridCell.Tab.0.bottom/0.25.1280.775@0.25.1280.775" timestamp="1619400432797" />
+    <state width="1203" height="2" key="GridCell.Tab.0.bottom/35.25.1245.775@35.25.1245.775" timestamp="1619338611502" />
+    <state width="1238" height="2" key="GridCell.Tab.0.center" timestamp="1619400432796">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="1238" height="476" key="GridCell.Tab.0.center/0.25.1280.775/-2970.25.1920.1055/-1050.25.1050.1655@-2970.25.1920.1055" timestamp="1619361169097" />
+    <state width="1238" height="2" key="GridCell.Tab.0.center/0.25.1280.775@0.25.1280.775" timestamp="1619400432796" />
+    <state width="1203" height="2" key="GridCell.Tab.0.center/35.25.1245.775@35.25.1245.775" timestamp="1619338611502" />
+    <state width="1238" height="2" key="GridCell.Tab.0.left" timestamp="1619400432796">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="1238" height="476" key="GridCell.Tab.0.left/0.25.1280.775/-2970.25.1920.1055/-1050.25.1050.1655@-2970.25.1920.1055" timestamp="1619361169096" />
+    <state width="1238" height="2" key="GridCell.Tab.0.left/0.25.1280.775@0.25.1280.775" timestamp="1619400432796" />
+    <state width="1203" height="2" key="GridCell.Tab.0.left/35.25.1245.775@35.25.1245.775" timestamp="1619338611500" />
+    <state width="1238" height="2" key="GridCell.Tab.0.right" timestamp="1619400432796">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="1238" height="476" key="GridCell.Tab.0.right/0.25.1280.775/-2970.25.1920.1055/-1050.25.1050.1655@-2970.25.1920.1055" timestamp="1619361169097" />
+    <state width="1238" height="2" key="GridCell.Tab.0.right/0.25.1280.775@0.25.1280.775" timestamp="1619400432796" />
+    <state width="1203" height="2" key="GridCell.Tab.0.right/35.25.1245.775@35.25.1245.775" timestamp="1619338611502" />
+  </component>
+</project>
